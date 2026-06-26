@@ -73,10 +73,8 @@ export default function ContactModal({ isOpen, onClose }) {
             <div className="mt-6 pt-6 border-t border-slate-200">
               <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide mb-3">Connect</p>
               <div className="modal-social flex gap-2.5">
-                <a href="#" aria-label="GitHub"><i className="fa-brands fa-github"></i></a>
-                <a href="#" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
-                <a href="#" aria-label="Twitter"><i className="fa-brands fa-x-twitter"></i></a>
-                <a href="#" aria-label="Dribbble"><i className="fa-brands fa-dribbble"></i></a>
+                <a href="https://github.com/Umeshp9099" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i className="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/umesh-patel-kadi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>

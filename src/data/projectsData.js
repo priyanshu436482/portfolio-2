@@ -139,17 +139,7 @@ export const techMarqueeItems = [
 ];
 
 export const experienceData = [
-  {
-    period: 'Jan 2023 – Present',
-    title: 'Senior Full Stack Developer',
-    company: 'Nexuron Technologies',
-    type: 'Full-time',
-    duration: '3 yrs 6 mos',
-    location: 'Kadi, Gujarat, India · Remote',
-    desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end to end project lifecycles, from requirement gathering to delivery, ensuring high quality releases.',
-    skills: ['Project and Team Management', 'Team Leadership', 'and 5 additional skills.'],
-    align: 'left'
-  },
+
   {
     period: 'Dec 2022 – Present',
     title: 'Full Stack Engineer',
@@ -209,18 +199,18 @@ export const experienceData = [
 
 export const testimonialsData = [
   {
-    text: '"It\'s a great pleasure to work with Umesh. Excellent task solving, excellent coding, excellent communication."',
-    author: 'Anders',
-    role: 'CEO of Artigan'
+    text: '"Umesh is a standout full stack developer who consistently delivered high quality work throughout our project. He brings strong expertise in Node.js, React, and PostgreSQL, and handled both frontend and backend responsibilities seamlessly. Beyond execution, Umesh was proactive and thoughtful, regularly suggesting smart improvements that elevated the final product. Communication was clear and consistent, deadlines were always met, and the overall collaboration was smooth from start to finish. We would absolutely work with him again and highly recommend him to anyone looking for a reliable, skilled developer who takes real ownership of his work."',
+    author: 'Andrew',
+    role: 'Client'
   },
   {
-    text: '"Umesh is great to work with. He had a great UI/UX that he showcased for our solution. Really liked working with him. Will definitely use him again in the future."',
-    author: 'Ashish Mahure',
-    role: 'CEO of GoCloudiq'
+    text: '"Working with Umesh Patel has been an excellent experience. He is a highly skilled Full Stack Developer with strong expertise in both Laravel and React. Umesh successfully enhanced our custom CRM system, including developing the Sales Pipeline Tracking feature and resolving existing bugs with precision. What impressed me most was his technical depth, problem-solving mindset, and clear communication. He quickly understood our requirements, delivered clean and scalable solutions, and also suggested improvements where needed. His ability to handle both backend and frontend seamlessly made the project run smoothly. Umesh is professional, reliable, and proactive, qualities that make him a valuable asset to any team. I look forward to working with him again and would strongly recommend him to anyone seeking a top-tier developer for complex web applications."',
+    author: 'Kate Smith',
+    role: 'Client'
   },
   {
-    text: '"Umesh is a highly skilled Full Stack Developer who did an excellent job working on our SQL Server meal-planning system and related integrations. He quickly understood a very large and complex stored procedure architecture and was able to work confidently across backend logic, APIs, and supporting application workflows. He helped identify and resolve issues related to recipe rotation, blacklist consistency, and overall workflow stability while maintaining clean and reliable code. What stood out most was his proactive approach and problem-solving mindset. He didn\'t just complete assigned tasks — he took the time to understand the system deeply and suggested practical improvements that added real value to the project. Umesh is professional, communicative, and easy to work with throughout the engagement. His combination of strong backend, database, and full stack development skills made a significant impact, and I would confidently recommend him to anyone looking for a dependable Full Stack Developer."',
-    author: 'Jason Baker',
-    role: 'CEO & Founder'
+    text: '"Umesh is a skilled Full Stack Developer who did an excellent job on our DJ Client CRM Portal updates. He quickly understood the requirements and delivered clean, responsive, and well-structured styling that improved the overall user experience. Beyond execution, Umesh was proactive and suggested useful UI improvements. Communication was clear and consistent, and all work was delivered on time. The collaboration was smooth from start to finish. We would definitely work with Umesh again and highly recommend him to anyone looking for a reliable Full Stack Developer who takes ownership and delivers high-quality results."',
+    author: 'Andy',
+    role: 'Client'
   }
 ];

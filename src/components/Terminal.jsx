@@ -109,12 +109,7 @@ const commands = {
       '  \x1b[33mExperience\x1b[0m',
       '  \x1b[90m────────────\x1b[0m',
       '',
-      '  \x1b[37mSr. Full Stack Developer\x1b[0m',
-      '  \x1b[90mNexuron Technologies | Jan 2023 — Present\x1b[0m',
-      '  \x1b[90m  Design, develop & deploy web/mobile apps\x1b[0m',
-      '  \x1b[90m  Own end-to-end project lifecycles\x1b[0m',
-      '  \x1b[90m  Skills: Team Leadership, Project Mgmt\x1b[0m',
-      '',
+
       '  \x1b[37mFull Stack Engineer\x1b[0m',
       '  \x1b[90mCreative Guild | Dec 2022 — Present\x1b[0m',
       '  \x1b[90m  Architect & deploy full-stack SaaS apps\x1b[0m',

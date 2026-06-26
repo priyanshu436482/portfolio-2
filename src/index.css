@@ -192,7 +192,6 @@ body {
 .scroll-line { width: 1px; height: 32px; background: linear-gradient(to bottom, #64748B, transparent); }
 
 .section-label { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent-1); margin-bottom: 1rem; }
-.section-label::before { content: ''; width: 24px; height: 1.5px; background: var(--accent-1); }
 
 .metric-value { font-size: 2.5rem; font-weight: 800; line-height: 1; letter-spacing: -0.03em; }
 @media (min-width: 768px) { .metric-value { font-size: 3rem; } }
