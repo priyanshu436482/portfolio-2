@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "louvain",
+  "totalFiles": 37,
+  "totalBatches": 3,
+  "exportsByPath": {
+    ".understand-anything/.understandignore": [],
+    "eslint.config.js": [],
+    "src/App.jsx": [],
+    "src/components/About.jsx": [
+      "About"
+    ],
+    "src/components/BlogModal.jsx": [
+      "BlogModal"
+    ],
+    "src/components/BlogSection.jsx": [
+      "BlogSection"
+    ],
+    "src/components/BookingModal.jsx": [
+      "BookingModal"
+    ],
+    "src/components/Contact.jsx": [
+      "Contact"
+    ],
+    "src/components/ContactModal.jsx": [
+      "ContactModal"
+    ],
+    "src/components/Experience.jsx": [
+      "Experience"
+    ],
+    "src/components/Footer.jsx": [
+      "Footer"
+    ],
+    "src/components/Hero.jsx": [
+      "Hero"
+    ],
+    "src/components/ImageCarousel.jsx": [
+      "ImageCarousel"
+    ],
+    "src/components/Navbar.jsx": [
+      "Navbar"
+    ],
+    "src/components/ProjectCard.jsx": [
+      "ProjectCard"
+    ],
+    "src/components/ProjectModal.jsx": [
+      "ProjectModal"
+    ],
+    "src/components/Projects.jsx": [
+      "Projects"
+    ],
+    "src/components/ScrollToTop.jsx": [
+      "ScrollToTop"
+    ],
+    "src/components/SkillsGrid.jsx": [
+      "SkillsGrid"
+    ],
+    "src/components/SkillsMarquee.jsx": [
+      "SkillsMarquee"
+    ],
+    "src/components/Terminal.jsx": [
+      "Terminal"
+    ],
+    "src/components/TestimonialModal.jsx": [
+      "TestimonialModal"
+    ],
+    "src/components/Testimonials.jsx": [
+      "Testimonials"
+    ],
+    "src/components/VoiceModal.jsx": [
+      "VoiceModal"
+    ],
+    "src/data/blogData.js": [
+      "blogData"
+    ],
+    "src/data/projectsData.js": [
+      "projectsData",
+      "skillsData",
+      "techMarqueeItems",
+      "experienceData",
+      "testimonialsData"
+    ],
+    "src/hooks/useCounter.js": [
+      "useCounter"
+    ],
+    "src/hooks/useLenis.js": [
+      "useLenis"
+    ],
+    "src/hooks/useMagnetic.js": [
+      "useMagnetic"
+    ],
+    "src/hooks/useScrollReveal.js": [
+      "useScrollReveal"
+    ],
+    "src/main.jsx": [],
+    "src/pages/ProjectsPage.jsx": [
+      "ProjectsPage"
+    ],
+    "vite.config.js": []
+  },
+  "batches": [
+    {
+      "batchIndex": 1,
+      "files": [
+        {
+          "path": "README.md",
+          "language": "markdown",
+          "sizeLines": 16,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "index.html",
+          "language": "html",
+          "sizeLines": 24,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "package.json",
+          "language": "json",
+          "sizeLines": 32,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        "README.md": [],
+        "index.html": [],
+        "package.json": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 2,
+      "files": [
+        {
+          "path": ".understand-anything/.understandignore",
+          "language": "unknown",
+          "sizeLines": 27,
+          "fileCategory": "code"
+        },
+        {
+          "path": "eslint.config.js",
+          "language": "javascript",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/App.jsx",
+          "language": "javascript",
+          "sizeLines": 188,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/About.jsx",
+          "language": "javascript",
+          "sizeLines": 46,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/BlogModal.jsx",
+          "language": "javascript",
+          "sizeLines": 49,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/BlogSection.jsx",
+          "language": "javascript",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/BookingModal.jsx",
+          "language": "javascript",
+          "sizeLines": 587,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Contact.jsx",
+          "language": "javascript",
+          "sizeLines": 53,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ContactModal.jsx",
+          "language": "javascript",
+          "sizeLines": 144,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Experience.jsx",
+          "language": "javascript",
+          "sizeLines": 47,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Footer.jsx",
+          "language": "javascript",
+          "sizeLines": 17,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Hero.jsx",
+          "language": "javascript",
+          "sizeLines": 100,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ImageCarousel.jsx",
+          "language": "javascript",
+          "sizeLines": 133,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Navbar.jsx",
+          "language": "javascript",
+          "sizeLines": 97,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ProjectCard.jsx",
+          "language": "javascript",
+          "sizeLines": 107,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ProjectModal.jsx",
+          "language": "javascript",
+          "sizeLines": 95,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Projects.jsx",
+          "language": "javascript",
+          "sizeLines": 37,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ScrollToTop.jsx",
+          "language": "javascript",
+          "sizeLines": 15,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/SkillsGrid.jsx",
+          "language": "javascript",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/SkillsMarquee.jsx",
+          "language": "javascript",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Terminal.jsx",
+          "language": "javascript",
+          "sizeLines": 343,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/TestimonialModal.jsx",
+          "language": "javascript",
+          "sizeLines": 33,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/Testimonials.jsx",
+          "language": "javascript",
+          "sizeLines": 83,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/VoiceModal.jsx",
+          "language": "javascript",
+          "sizeLines": 135,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/data/blogData.js",
+          "language": "javascript",
+          "sizeLines": 93,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        ".understand-anything/.understandignore": [],
+        "eslint.config.js": [],
+        "src/App.jsx": [],
+        "src/components/About.jsx": [],
+        "src/components/BlogModal.jsx": [],
+        "src/components/BlogSection.jsx": [],
+        "src/components/BookingModal.jsx": [],
+        "src/components/Contact.jsx": [],
+        "src/components/ContactModal.jsx": [],
+        "src/components/Experience.jsx": [],
+        "src/components/Footer.jsx": [],
+        "src/components/Hero.jsx": [],
+        "src/components/ImageCarousel.jsx": [],
+        "src/components/Navbar.jsx": [],
+        "src/components/ProjectCard.jsx": [],
+        "src/components/ProjectModal.jsx": [],
+        "src/components/Projects.jsx": [],
+        "src/components/ScrollToTop.jsx": [],
+        "src/components/SkillsGrid.jsx": [],
+        "src/components/SkillsMarquee.jsx": [],
+        "src/components/Terminal.jsx": [],
+        "src/components/TestimonialModal.jsx": [],
+        "src/components/Testimonials.jsx": [],
+        "src/components/VoiceModal.jsx": [],
+        "src/data/blogData.js": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 3,
+      "files": [
+        {
+          "path": "src/data/projectsData.js",
+          "language": "javascript",
+          "sizeLines": 286,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/useCounter.js",
+          "language": "javascript",
+          "sizeLines": 45,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/useLenis.js",
+          "language": "javascript",
+          "sizeLines": 29,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/useMagnetic.js",
+          "language": "javascript",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/useScrollReveal.js",
+          "language": "javascript",
+          "sizeLines": 63,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/index.css",
+          "language": "css",
+          "sizeLines": 1466,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "src/main.jsx",
+          "language": "javascript",
+          "sizeLines": 13,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/pages/ProjectsPage.jsx",
+          "language": "javascript",
+          "sizeLines": 122,
+          "fileCategory": "code"
+        },
+        {
+          "path": "vite.config.js",
+          "language": "javascript",
+          "sizeLines": 9,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/data/projectsData.js": [],
+        "src/hooks/useCounter.js": [],
+        "src/hooks/useLenis.js": [],
+        "src/hooks/useMagnetic.js": [],
+        "src/hooks/useScrollReveal.js": [],
+        "src/index.css": [],
+        "src/main.jsx": [],
+        "src/pages/ProjectsPage.jsx": [],
+        "vite.config.js": []
+      },
+      "neighborMap": {}
+    }
+  ]
+}

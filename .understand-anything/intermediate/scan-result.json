@@ -1,0 +1,247 @@
+{
+  "scriptCompleted": true,
+  "files": [
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "eslint.config.js",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "index.html",
+      "language": "html",
+      "sizeLines": 24,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 32,
+      "fileCategory": "config"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "src/App.jsx",
+      "language": "javascript",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/About.jsx",
+      "language": "javascript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/BlogModal.jsx",
+      "language": "javascript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/BlogSection.jsx",
+      "language": "javascript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/BookingModal.jsx",
+      "language": "javascript",
+      "sizeLines": 587,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Contact.jsx",
+      "language": "javascript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ContactModal.jsx",
+      "language": "javascript",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Experience.jsx",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Footer.jsx",
+      "language": "javascript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Hero.jsx",
+      "language": "javascript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ImageCarousel.jsx",
+      "language": "javascript",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Navbar.jsx",
+      "language": "javascript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ProjectCard.jsx",
+      "language": "javascript",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ProjectModal.jsx",
+      "language": "javascript",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Projects.jsx",
+      "language": "javascript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ScrollToTop.jsx",
+      "language": "javascript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/SkillsGrid.jsx",
+      "language": "javascript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/SkillsMarquee.jsx",
+      "language": "javascript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Terminal.jsx",
+      "language": "javascript",
+      "sizeLines": 343,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/TestimonialModal.jsx",
+      "language": "javascript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Testimonials.jsx",
+      "language": "javascript",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/VoiceModal.jsx",
+      "language": "javascript",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/data/blogData.js",
+      "language": "javascript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/data/projectsData.js",
+      "language": "javascript",
+      "sizeLines": 286,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/useCounter.js",
+      "language": "javascript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/useLenis.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/useMagnetic.js",
+      "language": "javascript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/useScrollReveal.js",
+      "language": "javascript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/index.css",
+      "language": "css",
+      "sizeLines": 1466,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/main.jsx",
+      "language": "javascript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/ProjectsPage.jsx",
+      "language": "javascript",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "vite.config.js",
+      "language": "javascript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    }
+  ],
+  "totalFiles": 37,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "stats": {
+    "filesScanned": 37,
+    "byCategory": {
+      "code": 33,
+      "markup": 2,
+      "config": 1,
+      "docs": 1
+    },
+    "byLanguage": {
+      "unknown": 1,
+      "javascript": 32,
+      "html": 1,
+      "json": 1,
+      "markdown": 1,
+      "css": 1
+    }
+  }
+}

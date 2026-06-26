@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="up-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA000" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#up-gradient)" />
+  <text x="50%" y="54%" font-family="sans-serif" font-weight="900" font-size="28" fill="#111827" text-anchor="middle" dominant-baseline="middle">UP</text>
+</svg>

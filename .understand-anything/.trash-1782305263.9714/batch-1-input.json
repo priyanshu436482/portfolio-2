@@ -1,0 +1,34 @@
+{
+    "projectRoot":  "C:\\Users\\patel\\OneDrive\\Desktop\\Nexuron\\portfolio",
+    "batchImportData":  {
+                            "README.md":  [
+
+                                          ],
+                            "index.html":  [
+
+                                           ],
+                            "package.json":  [
+
+                                             ]
+                        },
+    "batchFiles":  [
+                       {
+                           "fileCategory":  "docs",
+                           "path":  "README.md",
+                           "language":  "markdown",
+                           "sizeLines":  16
+                       },
+                       {
+                           "fileCategory":  "markup",
+                           "path":  "index.html",
+                           "language":  "html",
+                           "sizeLines":  24
+                       },
+                       {
+                           "fileCategory":  "config",
+                           "path":  "package.json",
+                           "language":  "json",
+                           "sizeLines":  32
+                       }
+                   ]
+}

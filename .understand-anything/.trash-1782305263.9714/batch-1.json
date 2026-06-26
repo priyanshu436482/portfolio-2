@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "file:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "README.md — markdown document",
+      "tags": [
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "id": "file:index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "index.html",
+      "summary": "index.html — html file",
+      "tags": [
+        "html",
+        "markup"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {}
+    },
+    {
+      "id": "file:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "package.json — json config",
+      "tags": [
+        "json",
+        "config"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    }
+  ],
+  "edges": []
+}
