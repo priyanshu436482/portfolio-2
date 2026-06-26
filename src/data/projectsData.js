@@ -141,14 +141,14 @@ export const techMarqueeItems = [
 export const experienceData = [
 
   {
-    period: 'Dec 2022 – Present',
-    title: 'Full Stack Engineer',
-    company: 'Creative Guild',
-    type: 'Permanent Full-time',
-    duration: '3 yrs 7 mos',
-    location: 'Hamilton, Ontario, Canada · Remote',
-    desc: 'Architected and deployed 5+ full stack SaaS applications using Laravel and Vue.js, serving 20,000+ active users across North America.',
-    skills: ['Docker', 'AWS', 'Laravel', 'Vue.js', 'and 11 additional skills.'],
+    period: 'Jul 2025 – Present',
+    title: 'Senior Full Stack Developer',
+    company: 'Nexuron Technologies',
+    type: 'Full-time',
+    duration: '11 mos',
+    location: 'Kadi, Gujarat, India · Remote',
+    desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end-to-end project lifecycles, from requirement gathering to delivery, ensuring high-quality solutions.',
+    skills: ['React', 'Node.js', 'Laravel', 'Vue.js', 'and 11 additional skills.'],
     align: 'right'
   },
   {
