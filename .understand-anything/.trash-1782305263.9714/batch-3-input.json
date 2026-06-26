@@ -1,0 +1,88 @@
+{
+    "projectRoot":  "C:\\Users\\patel\\OneDrive\\Desktop\\Nexuron\\portfolio",
+    "batchImportData":  {
+                            "vite.config.js":  [
+
+                                               ],
+                            "src/hooks/useMagnetic.js":  [
+
+                                                         ],
+                            "src/hooks/useCounter.js":  [
+
+                                                        ],
+                            "src/main.jsx":  [
+
+                                             ],
+                            "src/index.css":  [
+
+                                              ],
+                            "src/hooks/useScrollReveal.js":  [
+
+                                                             ],
+                            "src/data/projectsData.js":  [
+
+                                                         ],
+                            "src/hooks/useLenis.js":  [
+
+                                                      ],
+                            "src/pages/ProjectsPage.jsx":  [
+
+                                                           ]
+                        },
+    "batchFiles":  [
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/data/projectsData.js",
+                           "language":  "javascript",
+                           "sizeLines":  286
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/hooks/useCounter.js",
+                           "language":  "javascript",
+                           "sizeLines":  45
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/hooks/useLenis.js",
+                           "language":  "javascript",
+                           "sizeLines":  29
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/hooks/useMagnetic.js",
+                           "language":  "javascript",
+                           "sizeLines":  31
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/hooks/useScrollReveal.js",
+                           "language":  "javascript",
+                           "sizeLines":  63
+                       },
+                       {
+                           "fileCategory":  "markup",
+                           "path":  "src/index.css",
+                           "language":  "css",
+                           "sizeLines":  1466
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/main.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  13
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/pages/ProjectsPage.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  122
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "vite.config.js",
+                           "language":  "javascript",
+                           "sizeLines":  9
+                       }
+                   ]
+}

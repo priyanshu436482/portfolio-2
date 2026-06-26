@@ -1,0 +1,102 @@
+[
+  {
+    "id": "layer:configuration",
+    "name": "Configuration",
+    "description": "Project configuration files including package.json, Vite bundler config, and ESLint rules.",
+    "nodeIds": [
+      "file:package.json",
+      "file:vite.config.js",
+      "file:eslint.config.js",
+      "file:.understand-anything/.understandignore"
+    ]
+  },
+  {
+    "id": "layer:entry-point",
+    "name": "Entry Point",
+    "description": "Application entry points \u00e2\u20ac\u201d React root component and main mount point.",
+    "nodeIds": [
+      "file:src/main.jsx",
+      "file:src/App.jsx"
+    ]
+  },
+  {
+    "id": "layer:pages",
+    "name": "Pages",
+    "description": "Top-level page components that compose multiple sections and handle routing.",
+    "nodeIds": [
+      "file:src/pages/ProjectsPage.jsx"
+    ]
+  },
+  {
+    "id": "layer:components",
+    "name": "UI Components",
+    "description": "Reusable React components for building the user interface, including sections, modals, and utility components.",
+    "nodeIds": [
+      "file:src/components/About.jsx",
+      "file:src/components/BlogModal.jsx",
+      "file:src/components/BlogSection.jsx",
+      "file:src/components/BookingModal.jsx",
+      "file:src/components/Contact.jsx",
+      "file:src/components/ContactModal.jsx",
+      "file:src/components/Experience.jsx",
+      "file:src/components/Footer.jsx",
+      "file:src/components/Hero.jsx",
+      "file:src/components/ImageCarousel.jsx",
+      "file:src/components/Navbar.jsx",
+      "file:src/components/ProjectCard.jsx",
+      "file:src/components/ProjectModal.jsx",
+      "file:src/components/Projects.jsx",
+      "file:src/components/ScrollToTop.jsx",
+      "file:src/components/SkillsGrid.jsx",
+      "file:src/components/SkillsMarquee.jsx",
+      "file:src/components/Terminal.jsx",
+      "file:src/components/TestimonialModal.jsx",
+      "file:src/components/Testimonials.jsx",
+      "file:src/components/VoiceModal.jsx"
+    ]
+  },
+  {
+    "id": "layer:hooks",
+    "name": "Custom Hooks",
+    "description": "Custom React hooks for reusable stateful logic including animations, scroll effects, and counters.",
+    "nodeIds": [
+      "file:src/hooks/useCounter.js",
+      "file:src/hooks/useLenis.js",
+      "file:src/hooks/useMagnetic.js",
+      "file:src/hooks/useScrollReveal.js"
+    ]
+  },
+  {
+    "id": "layer:data",
+    "name": "Data & Content",
+    "description": "Static data files containing project information, blog content, skills, and testimonials.",
+    "nodeIds": [
+      "file:src/data/blogData.js",
+      "file:src/data/projectsData.js"
+    ]
+  },
+  {
+    "id": "layer:styles",
+    "name": "Styles",
+    "description": "Global CSS styles and Tailwind CSS theme configuration.",
+    "nodeIds": [
+      "file:src/index.css"
+    ]
+  },
+  {
+    "id": "layer:documentation",
+    "name": "Documentation",
+    "description": "Project documentation files.",
+    "nodeIds": [
+      "file:README.md"
+    ]
+  },
+  {
+    "id": "layer:assets",
+    "name": "Assets & Markup",
+    "description": "HTML entry point and static assets.",
+    "nodeIds": [
+      "file:index.html"
+    ]
+  }
+]

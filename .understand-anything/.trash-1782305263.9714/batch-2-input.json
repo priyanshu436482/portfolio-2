@@ -1,0 +1,232 @@
+{
+    "projectRoot":  "C:\\Users\\patel\\OneDrive\\Desktop\\Nexuron\\portfolio",
+    "batchImportData":  {
+                            "src/components/ProjectModal.jsx":  [
+
+                                                                ],
+                            "src/components/BlogModal.jsx":  [
+
+                                                             ],
+                            "src/components/BookingModal.jsx":  [
+
+                                                                ],
+                            "src/components/Terminal.jsx":  [
+
+                                                            ],
+                            "src/components/VoiceModal.jsx":  [
+
+                                                              ],
+                            "src/components/BlogSection.jsx":  [
+
+                                                               ],
+                            "src/App.jsx":  [
+
+                                            ],
+                            "src/components/SkillsGrid.jsx":  [
+
+                                                              ],
+                            "src/data/blogData.js":  [
+
+                                                     ],
+                            "src/components/Testimonials.jsx":  [
+
+                                                                ],
+                            "src/components/Navbar.jsx":  [
+
+                                                          ],
+                            "src/components/Experience.jsx":  [
+
+                                                              ],
+                            "src/components/Projects.jsx":  [
+
+                                                            ],
+                            "eslint.config.js":  [
+
+                                                 ],
+                            "src/components/ScrollToTop.jsx":  [
+
+                                                               ],
+                            "src/components/Hero.jsx":  [
+
+                                                        ],
+                            "src/components/Contact.jsx":  [
+
+                                                           ],
+                            "src/components/SkillsMarquee.jsx":  [
+
+                                                                 ],
+                            "src/components/Footer.jsx":  [
+
+                                                          ],
+                            "src/components/ImageCarousel.jsx":  [
+
+                                                                 ],
+                            "src/components/ContactModal.jsx":  [
+
+                                                                ],
+                            "src/components/TestimonialModal.jsx":  [
+
+                                                                    ],
+                            "src/components/About.jsx":  [
+
+                                                         ],
+                            ".understand-anything/.understandignore":  [
+
+                                                                       ],
+                            "src/components/ProjectCard.jsx":  [
+
+                                                               ]
+                        },
+    "batchFiles":  [
+                       {
+                           "fileCategory":  "code",
+                           "path":  ".understand-anything/.understandignore",
+                           "language":  "unknown",
+                           "sizeLines":  27
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "eslint.config.js",
+                           "language":  "javascript",
+                           "sizeLines":  21
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/App.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  188
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/About.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  46
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/BlogModal.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  49
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/BlogSection.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  55
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/BookingModal.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  587
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Contact.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  53
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/ContactModal.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  144
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Experience.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  47
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Footer.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  17
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Hero.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  100
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/ImageCarousel.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  133
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Navbar.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  97
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/ProjectCard.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  107
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/ProjectModal.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  95
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Projects.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  37
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/ScrollToTop.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  15
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/SkillsGrid.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  30
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/SkillsMarquee.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  22
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Terminal.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  343
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/TestimonialModal.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  33
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/Testimonials.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  83
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/components/VoiceModal.jsx",
+                           "language":  "javascript",
+                           "sizeLines":  135
+                       },
+                       {
+                           "fileCategory":  "code",
+                           "path":  "src/data/blogData.js",
+                           "language":  "javascript",
+                           "sizeLines":  93
+                       }
+                   ]
+}

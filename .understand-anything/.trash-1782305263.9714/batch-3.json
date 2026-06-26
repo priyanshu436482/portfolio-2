@@ -1,0 +1,967 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/data/projectsData.js",
+      "type": "file",
+      "name": "projectsData.js",
+      "filePath": "src/data/projectsData.js",
+      "summary": "projectsData.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:projectsData",
+      "type": "function",
+      "name": "projectsData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function projectsData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:skillsData",
+      "type": "function",
+      "name": "skillsData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function skillsData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:techMarqueeItems",
+      "type": "function",
+      "name": "techMarqueeItems",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function techMarqueeItems",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:experienceData",
+      "type": "function",
+      "name": "experienceData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function experienceData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:testimonialsData",
+      "type": "function",
+      "name": "testimonialsData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function testimonialsData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "file:src/hooks/useCounter.js",
+      "type": "file",
+      "name": "useCounter.js",
+      "filePath": "src/hooks/useCounter.js",
+      "summary": "useCounter.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useCounter.js:useCounter",
+      "type": "function",
+      "name": "useCounter",
+      "filePath": "src/hooks/useCounter.js",
+      "summary": "Function useCounter in useCounter.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 45
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/hooks/useLenis.js",
+      "type": "file",
+      "name": "useLenis.js",
+      "filePath": "src/hooks/useLenis.js",
+      "summary": "useLenis.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useLenis.js:useLenis",
+      "type": "function",
+      "name": "useLenis",
+      "filePath": "src/hooks/useLenis.js",
+      "summary": "Function useLenis in useLenis.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 29
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/hooks/useMagnetic.js",
+      "type": "file",
+      "name": "useMagnetic.js",
+      "filePath": "src/hooks/useMagnetic.js",
+      "summary": "useMagnetic.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "type": "function",
+      "name": "useMagnetic",
+      "filePath": "src/hooks/useMagnetic.js",
+      "summary": "Function useMagnetic in useMagnetic.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 31
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/hooks/useScrollReveal.js",
+      "type": "file",
+      "name": "useScrollReveal.js",
+      "filePath": "src/hooks/useScrollReveal.js",
+      "summary": "useScrollReveal.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "type": "function",
+      "name": "useScrollReveal",
+      "filePath": "src/hooks/useScrollReveal.js",
+      "summary": "Function useScrollReveal in useScrollReveal.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 63
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/index.css",
+      "type": "file",
+      "name": "index.css",
+      "filePath": "src/index.css",
+      "summary": "index.css — css file",
+      "tags": [
+        "css",
+        "markup"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {}
+    },
+    {
+      "id": "file:src/main.jsx",
+      "type": "file",
+      "name": "main.jsx",
+      "filePath": "src/main.jsx",
+      "summary": "main.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "file:src/pages/ProjectsPage.jsx",
+      "type": "file",
+      "name": "ProjectsPage.jsx",
+      "filePath": "src/pages/ProjectsPage.jsx",
+      "summary": "ProjectsPage.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "type": "function",
+      "name": "ProjectsPage",
+      "filePath": "src/pages/ProjectsPage.jsx",
+      "summary": "Function ProjectsPage in ProjectsPage.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 14,
+        "endLine": 122
+      },
+      "exported": true
+    },
+    {
+      "id": "file:vite.config.js",
+      "type": "file",
+      "name": "vite.config.js",
+      "filePath": "vite.config.js",
+      "summary": "vite.config.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:projectsData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:projectsData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:skillsData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:skillsData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:techMarqueeItems",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:techMarqueeItems",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:experienceData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:experienceData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:testimonialsData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:testimonialsData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useCounter.js",
+      "target": "function:src/hooks/useCounter.js:useCounter",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:entries.forEach",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:performance.now",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:update",
+      "target": "function:src/hooks/useCounter.js:Math.min",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:update",
+      "target": "function:src/hooks/useCounter.js:Math.pow",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:update",
+      "target": "function:src/hooks/useCounter.js:setCount",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:update",
+      "target": "function:src/hooks/useCounter.js:Math.round",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:update",
+      "target": "function:src/hooks/useCounter.js:requestAnimationFrame",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:update",
+      "target": "function:src/hooks/useCounter.js:setCount",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:requestAnimationFrame",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:observer.unobserve",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:observer.observe",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useCounter.js:useCounter",
+      "target": "function:src/hooks/useCounter.js:observer.disconnect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useCounter.js",
+      "target": "function:src/hooks/useCounter.js:useCounter",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useLenis.js",
+      "target": "function:src/hooks/useLenis.js:useLenis",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:useLenis",
+      "target": "function:src/hooks/useLenis.js:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:useLenis",
+      "target": "function:src/hooks/useLenis.js:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:useLenis",
+      "target": "function:src/hooks/useLenis.js:Math.min",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:useLenis",
+      "target": "function:src/hooks/useLenis.js:Math.pow",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:raf",
+      "target": "function:src/hooks/useLenis.js:lenis.raf",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:raf",
+      "target": "function:src/hooks/useLenis.js:requestAnimationFrame",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:useLenis",
+      "target": "function:src/hooks/useLenis.js:requestAnimationFrame",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useLenis.js:useLenis",
+      "target": "function:src/hooks/useLenis.js:lenis.destroy",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useLenis.js",
+      "target": "function:src/hooks/useLenis.js:useLenis",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useMagnetic.js",
+      "target": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "target": "function:src/hooks/useMagnetic.js:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "target": "function:src/hooks/useMagnetic.js:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useMagnetic.js:onMouseMove",
+      "target": "function:src/hooks/useMagnetic.js:btn.getBoundingClientRect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "target": "function:src/hooks/useMagnetic.js:btn.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "target": "function:src/hooks/useMagnetic.js:btn.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "target": "function:src/hooks/useMagnetic.js:btn.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "target": "function:src/hooks/useMagnetic.js:btn.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useMagnetic.js",
+      "target": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useScrollReveal.js",
+      "target": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:useLocation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:entries.forEach",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:entry.target.classList.add",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:observer.unobserve",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:clearTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:observeReveals",
+      "target": "function:src/hooks/useScrollReveal.js:root.querySelectorAll",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:observeReveals",
+      "target": "function:src/hooks/useScrollReveal.js:targets.forEach",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:observeReveals",
+      "target": "function:src/hooks/useScrollReveal.js:observer.observe",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:observeReveals",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:node.matches",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:observer.observe",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:observeReveals",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:mutObserver.observe",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:observer.disconnect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "target": "function:src/hooks/useScrollReveal.js:mutObserver.disconnect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useScrollReveal.js",
+      "target": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/pages/ProjectsPage.jsx",
+      "target": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:openProject",
+      "target": "function:src/pages/ProjectsPage.jsx:setSelectedProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:openProject",
+      "target": "function:src/pages/ProjectsPage.jsx:setModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:closeProject",
+      "target": "function:src/pages/ProjectsPage.jsx:setModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:closeProject",
+      "target": "function:src/pages/ProjectsPage.jsx:setSelectedProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:openVoice",
+      "target": "function:src/pages/ProjectsPage.jsx:setVoiceProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:openVoice",
+      "target": "function:src/pages/ProjectsPage.jsx:setVoiceModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:closeVoice",
+      "target": "function:src/pages/ProjectsPage.jsx:setVoiceModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:closeVoice",
+      "target": "function:src/pages/ProjectsPage.jsx:setVoiceProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:useMemo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:projectsData.filter",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:TABS.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:setActiveTab",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:projectsData.filter",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:projectsData.filter",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "target": "function:src/pages/ProjectsPage.jsx:filtered.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/pages/ProjectsPage.jsx",
+      "target": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    }
+  ]
+}

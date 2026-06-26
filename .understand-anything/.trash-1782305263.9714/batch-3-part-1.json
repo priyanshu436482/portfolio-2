@@ -1,0 +1,583 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/data/projectsData.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 286,
+      "nonEmptyLines": 282,
+      "exports": [
+        {
+          "name": "projectsData",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "skillsData",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "techMarqueeItems",
+          "line": 193,
+          "isDefault": false
+        },
+        {
+          "name": "experienceData",
+          "line": 212,
+          "isDefault": false
+        },
+        {
+          "name": "testimonialsData",
+          "line": 270,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/useCounter.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 38,
+      "functions": [
+        {
+          "name": "useCounter",
+          "startLine": 3,
+          "endLine": 45,
+          "params": [
+            "target"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useCounter",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useCounter",
+          "callee": "useState",
+          "lineNumber": 5
+        },
+        {
+          "caller": "useCounter",
+          "callee": "useRef",
+          "lineNumber": 6
+        },
+        {
+          "caller": "useCounter",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useCounter",
+          "callee": "useEffect",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useCounter",
+          "callee": "entries.forEach",
+          "lineNumber": 15
+        },
+        {
+          "caller": "useCounter",
+          "callee": "performance.now",
+          "lineNumber": 18
+        },
+        {
+          "caller": "update",
+          "callee": "Math.min",
+          "lineNumber": 22
+        },
+        {
+          "caller": "update",
+          "callee": "Math.pow",
+          "lineNumber": 23
+        },
+        {
+          "caller": "update",
+          "callee": "setCount",
+          "lineNumber": 24
+        },
+        {
+          "caller": "update",
+          "callee": "Math.round",
+          "lineNumber": 24
+        },
+        {
+          "caller": "update",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 26
+        },
+        {
+          "caller": "update",
+          "callee": "setCount",
+          "lineNumber": 28
+        },
+        {
+          "caller": "useCounter",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 32
+        },
+        {
+          "caller": "useCounter",
+          "callee": "observer.unobserve",
+          "lineNumber": 33
+        },
+        {
+          "caller": "useCounter",
+          "callee": "observer.observe",
+          "lineNumber": 40
+        },
+        {
+          "caller": "useCounter",
+          "callee": "observer.disconnect",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/useLenis.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 23,
+      "functions": [
+        {
+          "name": "useLenis",
+          "startLine": 4,
+          "endLine": 29,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useLenis",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useLenis",
+          "callee": "useRef",
+          "lineNumber": 5
+        },
+        {
+          "caller": "useLenis",
+          "callee": "useEffect",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useLenis",
+          "callee": "Math.min",
+          "lineNumber": 10
+        },
+        {
+          "caller": "useLenis",
+          "callee": "Math.pow",
+          "lineNumber": 10
+        },
+        {
+          "caller": "raf",
+          "callee": "lenis.raf",
+          "lineNumber": 16
+        },
+        {
+          "caller": "raf",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useLenis",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useLenis",
+          "callee": "lenis.destroy",
+          "lineNumber": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/useMagnetic.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "useMagnetic",
+          "startLine": 3,
+          "endLine": 31,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useMagnetic",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useMagnetic",
+          "callee": "useRef",
+          "lineNumber": 4
+        },
+        {
+          "caller": "useMagnetic",
+          "callee": "useEffect",
+          "lineNumber": 6
+        },
+        {
+          "caller": "onMouseMove",
+          "callee": "btn.getBoundingClientRect",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useMagnetic",
+          "callee": "btn.addEventListener",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useMagnetic",
+          "callee": "btn.addEventListener",
+          "lineNumber": 22
+        },
+        {
+          "caller": "useMagnetic",
+          "callee": "btn.removeEventListener",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useMagnetic",
+          "callee": "btn.removeEventListener",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/useScrollReveal.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 63,
+      "nonEmptyLines": 52,
+      "functions": [
+        {
+          "name": "useScrollReveal",
+          "startLine": 4,
+          "endLine": 63,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useScrollReveal",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useScrollReveal",
+          "callee": "useRef",
+          "lineNumber": 5
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "useLocation",
+          "lineNumber": 6
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "useEffect",
+          "lineNumber": 8
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "entries.forEach",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "setTimeout",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "entry.target.classList.add",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "observer.unobserve",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "clearTimeout",
+          "lineNumber": 28
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "setTimeout",
+          "lineNumber": 29
+        },
+        {
+          "caller": "observeReveals",
+          "callee": "root.querySelectorAll",
+          "lineNumber": 35
+        },
+        {
+          "caller": "observeReveals",
+          "callee": "targets.forEach",
+          "lineNumber": 36
+        },
+        {
+          "caller": "observeReveals",
+          "callee": "observer.observe",
+          "lineNumber": 36
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "observeReveals",
+          "lineNumber": 39
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "node.matches",
+          "lineNumber": 45
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "observer.observe",
+          "lineNumber": 46
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "observeReveals",
+          "lineNumber": 48
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "mutObserver.observe",
+          "lineNumber": 54
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "observer.disconnect",
+          "lineNumber": 57
+        },
+        {
+          "caller": "useScrollReveal",
+          "callee": "mutObserver.disconnect",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/index.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 1466,
+      "nonEmptyLines": 1354,
+      "metrics": {}
+    },
+    {
+      "path": "src/main.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 12,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/ProjectsPage.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 122,
+      "nonEmptyLines": 112,
+      "functions": [
+        {
+          "name": "ProjectsPage",
+          "startLine": 14,
+          "endLine": 122,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ProjectsPage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ProjectsPage",
+          "callee": "useState",
+          "lineNumber": 15
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "useState",
+          "lineNumber": 17
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "useState",
+          "lineNumber": 18
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "useState",
+          "lineNumber": 19
+        },
+        {
+          "caller": "openProject",
+          "callee": "setSelectedProject",
+          "lineNumber": 22
+        },
+        {
+          "caller": "openProject",
+          "callee": "setModalOpen",
+          "lineNumber": 23
+        },
+        {
+          "caller": "closeProject",
+          "callee": "setModalOpen",
+          "lineNumber": 27
+        },
+        {
+          "caller": "closeProject",
+          "callee": "setSelectedProject",
+          "lineNumber": 28
+        },
+        {
+          "caller": "openVoice",
+          "callee": "setVoiceProject",
+          "lineNumber": 32
+        },
+        {
+          "caller": "openVoice",
+          "callee": "setVoiceModalOpen",
+          "lineNumber": 33
+        },
+        {
+          "caller": "closeVoice",
+          "callee": "setVoiceModalOpen",
+          "lineNumber": 37
+        },
+        {
+          "caller": "closeVoice",
+          "callee": "setVoiceProject",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "useMemo",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "projectsData.filter",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "TABS.map",
+          "lineNumber": 64
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "setActiveTab",
+          "lineNumber": 70
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "projectsData.filter",
+          "lineNumber": 79
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "projectsData.filter",
+          "lineNumber": 84
+        },
+        {
+          "caller": "ProjectsPage",
+          "callee": "filtered.map",
+          "lineNumber": 92
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "vite.config.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

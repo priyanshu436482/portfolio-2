@@ -1,0 +1,2107 @@
+{
+  "nodes": [
+    {
+      "id": "file:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "README.md \u00e2\u20ac\u201d markdown document",
+      "tags": [
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "id": "file:index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "index.html",
+      "summary": "index.html \u00e2\u20ac\u201d html file",
+      "tags": [
+        "html",
+        "markup"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {}
+    },
+    {
+      "id": "file:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "package.json \u00e2\u20ac\u201d json config",
+      "tags": [
+        "json",
+        "config"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": ".understandignore \u00e2\u20ac\u201d unknown file",
+      "tags": [
+        "unknown",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {}
+    },
+    {
+      "id": "file:eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "eslint.config.js",
+      "summary": "eslint.config.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "file:src/App.jsx",
+      "type": "file",
+      "name": "App.jsx",
+      "filePath": "src/App.jsx",
+      "summary": "App.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 21,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/App.jsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "src/App.jsx",
+      "summary": "Function App in App.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 25,
+        "endLine": 186
+      }
+    },
+    {
+      "id": "file:src/components/About.jsx",
+      "type": "file",
+      "name": "About.jsx",
+      "filePath": "src/components/About.jsx",
+      "summary": "About.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/About.jsx:Metric",
+      "type": "function",
+      "name": "Metric",
+      "filePath": "src/components/About.jsx",
+      "summary": "Function Metric in About.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "function:src/components/About.jsx:About",
+      "type": "function",
+      "name": "About",
+      "filePath": "src/components/About.jsx",
+      "summary": "Function About in About.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 18,
+        "endLine": 46
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/BlogModal.jsx",
+      "type": "file",
+      "name": "BlogModal.jsx",
+      "filePath": "src/components/BlogModal.jsx",
+      "summary": "BlogModal.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/BlogModal.jsx:BlogModal",
+      "type": "function",
+      "name": "BlogModal",
+      "filePath": "src/components/BlogModal.jsx",
+      "summary": "Function BlogModal in BlogModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 49
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/BlogSection.jsx",
+      "type": "file",
+      "name": "BlogSection.jsx",
+      "filePath": "src/components/BlogSection.jsx",
+      "summary": "BlogSection.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/BlogSection.jsx:BlogSection",
+      "type": "function",
+      "name": "BlogSection",
+      "filePath": "src/components/BlogSection.jsx",
+      "summary": "Function BlogSection in BlogSection.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 55
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/BookingModal.jsx",
+      "type": "file",
+      "name": "BookingModal.jsx",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "BookingModal.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "type": "function",
+      "name": "generateMonthDays",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "Function generateMonthDays in BookingModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 13,
+        "endLine": 34
+      }
+    },
+    {
+      "id": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "function",
+      "name": "getTimeSlotStatus",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "Function getTimeSlotStatus in BookingModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 36,
+        "endLine": 41
+      }
+    },
+    {
+      "id": "function:src/components/BookingModal.jsx:BookingModal",
+      "type": "function",
+      "name": "BookingModal",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "Function BookingModal in BookingModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 55,
+        "endLine": 587
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Contact.jsx",
+      "type": "file",
+      "name": "Contact.jsx",
+      "filePath": "src/components/Contact.jsx",
+      "summary": "Contact.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Contact.jsx:Contact",
+      "type": "function",
+      "name": "Contact",
+      "filePath": "src/components/Contact.jsx",
+      "summary": "Function Contact in Contact.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 1,
+        "endLine": 53
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ContactModal.jsx",
+      "type": "file",
+      "name": "ContactModal.jsx",
+      "filePath": "src/components/ContactModal.jsx",
+      "summary": "ContactModal.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ContactModal.jsx:ContactModal",
+      "type": "function",
+      "name": "ContactModal",
+      "filePath": "src/components/ContactModal.jsx",
+      "summary": "Function ContactModal in ContactModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 144
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Experience.jsx",
+      "type": "file",
+      "name": "Experience.jsx",
+      "filePath": "src/components/Experience.jsx",
+      "summary": "Experience.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Experience.jsx:Experience",
+      "type": "function",
+      "name": "Experience",
+      "filePath": "src/components/Experience.jsx",
+      "summary": "Function Experience in Experience.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 47
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Footer.jsx",
+      "type": "file",
+      "name": "Footer.jsx",
+      "filePath": "src/components/Footer.jsx",
+      "summary": "Footer.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Footer.jsx:Footer",
+      "type": "function",
+      "name": "Footer",
+      "filePath": "src/components/Footer.jsx",
+      "summary": "Function Footer in Footer.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 1,
+        "endLine": 17
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Hero.jsx",
+      "type": "file",
+      "name": "Hero.jsx",
+      "filePath": "src/components/Hero.jsx",
+      "summary": "Hero.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Hero.jsx:Hero",
+      "type": "function",
+      "name": "Hero",
+      "filePath": "src/components/Hero.jsx",
+      "summary": "Function Hero in Hero.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 100
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ImageCarousel.jsx",
+      "type": "file",
+      "name": "ImageCarousel.jsx",
+      "filePath": "src/components/ImageCarousel.jsx",
+      "summary": "ImageCarousel.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "type": "function",
+      "name": "ImageCarousel",
+      "filePath": "src/components/ImageCarousel.jsx",
+      "summary": "Function ImageCarousel in ImageCarousel.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 133
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Navbar.jsx",
+      "type": "file",
+      "name": "Navbar.jsx",
+      "filePath": "src/components/Navbar.jsx",
+      "summary": "Navbar.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Navbar.jsx:Navbar",
+      "type": "function",
+      "name": "Navbar",
+      "filePath": "src/components/Navbar.jsx",
+      "summary": "Function Navbar in Navbar.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 97
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ProjectCard.jsx",
+      "type": "file",
+      "name": "ProjectCard.jsx",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "ProjectCard.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ProjectCard.jsx:ProjectCard",
+      "type": "function",
+      "name": "ProjectCard",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "Function ProjectCard in ProjectCard.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 21
+      },
+      "exported": true
+    },
+    {
+      "id": "function:src/components/ProjectCard.jsx:VisualColumn",
+      "type": "function",
+      "name": "VisualColumn",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "Function VisualColumn in ProjectCard.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 23,
+        "endLine": 43
+      }
+    },
+    {
+      "id": "function:src/components/ProjectCard.jsx:ContentSide",
+      "type": "function",
+      "name": "ContentSide",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "Function ContentSide in ProjectCard.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 45,
+        "endLine": 107
+      }
+    },
+    {
+      "id": "file:src/components/ProjectModal.jsx",
+      "type": "file",
+      "name": "ProjectModal.jsx",
+      "filePath": "src/components/ProjectModal.jsx",
+      "summary": "ProjectModal.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "type": "function",
+      "name": "ProjectModal",
+      "filePath": "src/components/ProjectModal.jsx",
+      "summary": "Function ProjectModal in ProjectModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 95
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Projects.jsx",
+      "type": "file",
+      "name": "Projects.jsx",
+      "filePath": "src/components/Projects.jsx",
+      "summary": "Projects.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Projects.jsx:Projects",
+      "type": "function",
+      "name": "Projects",
+      "filePath": "src/components/Projects.jsx",
+      "summary": "Function Projects in Projects.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 7,
+        "endLine": 37
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ScrollToTop.jsx",
+      "type": "file",
+      "name": "ScrollToTop.jsx",
+      "filePath": "src/components/ScrollToTop.jsx",
+      "summary": "ScrollToTop.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "type": "function",
+      "name": "ScrollToTop",
+      "filePath": "src/components/ScrollToTop.jsx",
+      "summary": "Function ScrollToTop in ScrollToTop.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 15
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/SkillsGrid.jsx",
+      "type": "file",
+      "name": "SkillsGrid.jsx",
+      "filePath": "src/components/SkillsGrid.jsx",
+      "summary": "SkillsGrid.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/SkillsGrid.jsx:SkillsGrid",
+      "type": "function",
+      "name": "SkillsGrid",
+      "filePath": "src/components/SkillsGrid.jsx",
+      "summary": "Function SkillsGrid in SkillsGrid.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 30
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/SkillsMarquee.jsx",
+      "type": "file",
+      "name": "SkillsMarquee.jsx",
+      "filePath": "src/components/SkillsMarquee.jsx",
+      "summary": "SkillsMarquee.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "type": "function",
+      "name": "SkillsMarquee",
+      "filePath": "src/components/SkillsMarquee.jsx",
+      "summary": "Function SkillsMarquee in SkillsMarquee.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 22
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Terminal.jsx",
+      "type": "file",
+      "name": "Terminal.jsx",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Terminal.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Terminal.jsx:parseANSI",
+      "type": "function",
+      "name": "parseANSI",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Function parseANSI in Terminal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 184,
+        "endLine": 209
+      }
+    },
+    {
+      "id": "function:src/components/Terminal.jsx:renderLine",
+      "type": "function",
+      "name": "renderLine",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Function renderLine in Terminal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 211,
+        "endLine": 214
+      }
+    },
+    {
+      "id": "function:src/components/Terminal.jsx:Terminal",
+      "type": "function",
+      "name": "Terminal",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Function Terminal in Terminal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 216,
+        "endLine": 343
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/TestimonialModal.jsx",
+      "type": "file",
+      "name": "TestimonialModal.jsx",
+      "filePath": "src/components/TestimonialModal.jsx",
+      "summary": "TestimonialModal.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "type": "function",
+      "name": "TestimonialModal",
+      "filePath": "src/components/TestimonialModal.jsx",
+      "summary": "Function TestimonialModal in TestimonialModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 1,
+        "endLine": 33
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Testimonials.jsx",
+      "type": "file",
+      "name": "Testimonials.jsx",
+      "filePath": "src/components/Testimonials.jsx",
+      "summary": "Testimonials.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Testimonials.jsx:Testimonials",
+      "type": "function",
+      "name": "Testimonials",
+      "filePath": "src/components/Testimonials.jsx",
+      "summary": "Function Testimonials in Testimonials.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 5,
+        "endLine": 83
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/VoiceModal.jsx",
+      "type": "file",
+      "name": "VoiceModal.jsx",
+      "filePath": "src/components/VoiceModal.jsx",
+      "summary": "VoiceModal.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "type": "function",
+      "name": "VoiceModal",
+      "filePath": "src/components/VoiceModal.jsx",
+      "summary": "Function VoiceModal in VoiceModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 16,
+        "endLine": 135
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/data/blogData.js",
+      "type": "file",
+      "name": "blogData.js",
+      "filePath": "src/data/blogData.js",
+      "summary": "blogData.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/data/blogData.js:blogData",
+      "type": "function",
+      "name": "blogData",
+      "filePath": "src/data/blogData.js",
+      "summary": "Exported function blogData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "file:src/data/projectsData.js",
+      "type": "file",
+      "name": "projectsData.js",
+      "filePath": "src/data/projectsData.js",
+      "summary": "projectsData.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:projectsData",
+      "type": "function",
+      "name": "projectsData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function projectsData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:skillsData",
+      "type": "function",
+      "name": "skillsData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function skillsData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:techMarqueeItems",
+      "type": "function",
+      "name": "techMarqueeItems",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function techMarqueeItems",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:experienceData",
+      "type": "function",
+      "name": "experienceData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function experienceData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "function:src/data/projectsData.js:testimonialsData",
+      "type": "function",
+      "name": "testimonialsData",
+      "filePath": "src/data/projectsData.js",
+      "summary": "Exported function testimonialsData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    },
+    {
+      "id": "file:src/hooks/useCounter.js",
+      "type": "file",
+      "name": "useCounter.js",
+      "filePath": "src/hooks/useCounter.js",
+      "summary": "useCounter.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useCounter.js:useCounter",
+      "type": "function",
+      "name": "useCounter",
+      "filePath": "src/hooks/useCounter.js",
+      "summary": "Function useCounter in useCounter.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 45
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/hooks/useLenis.js",
+      "type": "file",
+      "name": "useLenis.js",
+      "filePath": "src/hooks/useLenis.js",
+      "summary": "useLenis.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useLenis.js:useLenis",
+      "type": "function",
+      "name": "useLenis",
+      "filePath": "src/hooks/useLenis.js",
+      "summary": "Function useLenis in useLenis.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 29
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/hooks/useMagnetic.js",
+      "type": "file",
+      "name": "useMagnetic.js",
+      "filePath": "src/hooks/useMagnetic.js",
+      "summary": "useMagnetic.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "type": "function",
+      "name": "useMagnetic",
+      "filePath": "src/hooks/useMagnetic.js",
+      "summary": "Function useMagnetic in useMagnetic.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 31
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/hooks/useScrollReveal.js",
+      "type": "file",
+      "name": "useScrollReveal.js",
+      "filePath": "src/hooks/useScrollReveal.js",
+      "summary": "useScrollReveal.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "type": "function",
+      "name": "useScrollReveal",
+      "filePath": "src/hooks/useScrollReveal.js",
+      "summary": "Function useScrollReveal in useScrollReveal.js",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 63
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/index.css",
+      "type": "file",
+      "name": "index.css",
+      "filePath": "src/index.css",
+      "summary": "index.css \u00e2\u20ac\u201d css file",
+      "tags": [
+        "css",
+        "markup"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {}
+    },
+    {
+      "id": "file:src/main.jsx",
+      "type": "file",
+      "name": "main.jsx",
+      "filePath": "src/main.jsx",
+      "summary": "main.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "file:src/pages/ProjectsPage.jsx",
+      "type": "file",
+      "name": "ProjectsPage.jsx",
+      "filePath": "src/pages/ProjectsPage.jsx",
+      "summary": "ProjectsPage.jsx \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "type": "function",
+      "name": "ProjectsPage",
+      "filePath": "src/pages/ProjectsPage.jsx",
+      "summary": "Function ProjectsPage in ProjectsPage.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 14,
+        "endLine": 122
+      },
+      "exported": true
+    },
+    {
+      "id": "file:vite.config.js",
+      "type": "file",
+      "name": "vite.config.js",
+      "filePath": "vite.config.js",
+      "summary": "vite.config.js \u00e2\u20ac\u201d javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/App.jsx",
+      "target": "function:src/App.jsx:App",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/About.jsx",
+      "target": "function:src/components/About.jsx:Metric",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/About.jsx",
+      "target": "function:src/components/About.jsx:About",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/About.jsx",
+      "target": "function:src/components/About.jsx:About",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogModal.jsx",
+      "target": "function:src/components/BlogModal.jsx:BlogModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogModal.jsx",
+      "target": "function:src/components/BlogModal.jsx:BlogModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogSection.jsx",
+      "target": "function:src/components/BlogSection.jsx:BlogSection",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogSection.jsx",
+      "target": "function:src/components/BlogSection.jsx:BlogSection",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:BookingModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:BookingModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Contact.jsx",
+      "target": "function:src/components/Contact.jsx:Contact",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Contact.jsx",
+      "target": "function:src/components/Contact.jsx:Contact",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ContactModal.jsx",
+      "target": "function:src/components/ContactModal.jsx:ContactModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ContactModal.jsx",
+      "target": "function:src/components/ContactModal.jsx:ContactModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Experience.jsx",
+      "target": "function:src/components/Experience.jsx:Experience",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Experience.jsx",
+      "target": "function:src/components/Experience.jsx:Experience",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Footer.jsx",
+      "target": "function:src/components/Footer.jsx:Footer",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Footer.jsx",
+      "target": "function:src/components/Footer.jsx:Footer",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Hero.jsx",
+      "target": "function:src/components/Hero.jsx:Hero",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Hero.jsx",
+      "target": "function:src/components/Hero.jsx:Hero",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ImageCarousel.jsx",
+      "target": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ImageCarousel.jsx",
+      "target": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Navbar.jsx",
+      "target": "function:src/components/Navbar.jsx:Navbar",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Navbar.jsx",
+      "target": "function:src/components/Navbar.jsx:Navbar",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:ProjectCard",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:VisualColumn",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:ContentSide",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:ProjectCard",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectModal.jsx",
+      "target": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectModal.jsx",
+      "target": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Projects.jsx",
+      "target": "function:src/components/Projects.jsx:Projects",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Projects.jsx",
+      "target": "function:src/components/Projects.jsx:Projects",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ScrollToTop.jsx",
+      "target": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ScrollToTop.jsx",
+      "target": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsGrid.jsx",
+      "target": "function:src/components/SkillsGrid.jsx:SkillsGrid",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsGrid.jsx",
+      "target": "function:src/components/SkillsGrid.jsx:SkillsGrid",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsMarquee.jsx",
+      "target": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsMarquee.jsx",
+      "target": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:parseANSI",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:renderLine",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:Terminal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:renderLine",
+      "target": "function:src/components/Terminal.jsx:parseANSI",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:renderLine",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:Terminal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/TestimonialModal.jsx",
+      "target": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/TestimonialModal.jsx",
+      "target": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Testimonials.jsx",
+      "target": "function:src/components/Testimonials.jsx:Testimonials",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Testimonials.jsx",
+      "target": "function:src/components/Testimonials.jsx:Testimonials",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/VoiceModal.jsx",
+      "target": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/VoiceModal.jsx",
+      "target": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/blogData.js",
+      "target": "function:src/data/blogData.js:blogData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/blogData.js",
+      "target": "function:src/data/blogData.js:blogData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:projectsData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:projectsData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:skillsData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:skillsData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:techMarqueeItems",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:techMarqueeItems",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:experienceData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:experienceData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:testimonialsData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/projectsData.js",
+      "target": "function:src/data/projectsData.js:testimonialsData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useCounter.js",
+      "target": "function:src/hooks/useCounter.js:useCounter",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useCounter.js",
+      "target": "function:src/hooks/useCounter.js:useCounter",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useLenis.js",
+      "target": "function:src/hooks/useLenis.js:useLenis",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useLenis.js",
+      "target": "function:src/hooks/useLenis.js:useLenis",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useMagnetic.js",
+      "target": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useMagnetic.js",
+      "target": "function:src/hooks/useMagnetic.js:useMagnetic",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useScrollReveal.js",
+      "target": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/hooks/useScrollReveal.js",
+      "target": "function:src/hooks/useScrollReveal.js:useScrollReveal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/pages/ProjectsPage.jsx",
+      "target": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/pages/ProjectsPage.jsx",
+      "target": "function:src/pages/ProjectsPage.jsx:ProjectsPage",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:configuration",
+      "name": "Configuration",
+      "description": "Project configuration files including package.json, Vite bundler config, and ESLint rules.",
+      "nodeIds": [
+        "file:package.json",
+        "file:vite.config.js",
+        "file:eslint.config.js",
+        "file:.understand-anything/.understandignore"
+      ]
+    },
+    {
+      "id": "layer:entry-point",
+      "name": "Entry Point",
+      "description": "Application entry points \u00e2\u20ac\u201d React root component and main mount point.",
+      "nodeIds": [
+        "file:src/main.jsx",
+        "file:src/App.jsx"
+      ]
+    },
+    {
+      "id": "layer:pages",
+      "name": "Pages",
+      "description": "Top-level page components that compose multiple sections and handle routing.",
+      "nodeIds": [
+        "file:src/pages/ProjectsPage.jsx"
+      ]
+    },
+    {
+      "id": "layer:components",
+      "name": "UI Components",
+      "description": "Reusable React components for building the user interface, including sections, modals, and utility components.",
+      "nodeIds": [
+        "file:src/components/About.jsx",
+        "file:src/components/BlogModal.jsx",
+        "file:src/components/BlogSection.jsx",
+        "file:src/components/BookingModal.jsx",
+        "file:src/components/Contact.jsx",
+        "file:src/components/ContactModal.jsx",
+        "file:src/components/Experience.jsx",
+        "file:src/components/Footer.jsx",
+        "file:src/components/Hero.jsx",
+        "file:src/components/ImageCarousel.jsx",
+        "file:src/components/Navbar.jsx",
+        "file:src/components/ProjectCard.jsx",
+        "file:src/components/ProjectModal.jsx",
+        "file:src/components/Projects.jsx",
+        "file:src/components/ScrollToTop.jsx",
+        "file:src/components/SkillsGrid.jsx",
+        "file:src/components/SkillsMarquee.jsx",
+        "file:src/components/Terminal.jsx",
+        "file:src/components/TestimonialModal.jsx",
+        "file:src/components/Testimonials.jsx",
+        "file:src/components/VoiceModal.jsx"
+      ]
+    },
+    {
+      "id": "layer:hooks",
+      "name": "Custom Hooks",
+      "description": "Custom React hooks for reusable stateful logic including animations, scroll effects, and counters.",
+      "nodeIds": [
+        "file:src/hooks/useCounter.js",
+        "file:src/hooks/useLenis.js",
+        "file:src/hooks/useMagnetic.js",
+        "file:src/hooks/useScrollReveal.js"
+      ]
+    },
+    {
+      "id": "layer:data",
+      "name": "Data & Content",
+      "description": "Static data files containing project information, blog content, skills, and testimonials.",
+      "nodeIds": [
+        "file:src/data/blogData.js",
+        "file:src/data/projectsData.js"
+      ]
+    },
+    {
+      "id": "layer:styles",
+      "name": "Styles",
+      "description": "Global CSS styles and Tailwind CSS theme configuration.",
+      "nodeIds": [
+        "file:src/index.css"
+      ]
+    },
+    {
+      "id": "layer:documentation",
+      "name": "Documentation",
+      "description": "Project documentation files.",
+      "nodeIds": [
+        "file:README.md"
+      ]
+    },
+    {
+      "id": "layer:assets",
+      "name": "Assets & Markup",
+      "description": "HTML entry point and static assets.",
+      "nodeIds": [
+        "file:index.html"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Project Overview",
+      "description": "Start with the README to understand the project purpose \u00e2\u20ac\u201d a React + Vite portfolio application with Tailwind CSS styling.",
+      "nodeIds": [
+        "file:README.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Application Entry",
+      "description": "The app boots from src/main.jsx, mounting the root React component defined in src/App.jsx with React Router for navigation.",
+      "nodeIds": [
+        "file:src/main.jsx",
+        "file:src/App.jsx"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Pages & Routing",
+      "description": "Page-level components define the main routes. ProjectsPage manages the project showcase with filtering and voice interaction.",
+      "nodeIds": [
+        "file:src/pages/ProjectsPage.jsx"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "UI Components",
+      "description": "Reusable components including the Hero section, Navbar, About section, Experience timeline, Skills display, Testimonials, Blog, Contact, and Footer. Modals provide expanded views for projects, booking, testimonials, blog, and voice interaction.",
+      "nodeIds": [
+        "file:src/components/Hero.jsx",
+        "file:src/components/Navbar.jsx",
+        "file:src/components/About.jsx",
+        "file:src/components/Experience.jsx",
+        "file:src/components/SkillsGrid.jsx",
+        "file:src/components/SkillsMarquee.jsx",
+        "file:src/components/Testimonials.jsx",
+        "file:src/components/BlogSection.jsx",
+        "file:src/components/Projects.jsx",
+        "file:src/components/Contact.jsx",
+        "file:src/components/Footer.jsx",
+        "file:src/components/ProjectCard.jsx"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Modal Components",
+      "description": "Detail modals for projects, blog posts, booking, testimonials, and the interactive terminal and voice assistant.",
+      "nodeIds": [
+        "file:src/components/ProjectModal.jsx",
+        "file:src/components/BlogModal.jsx",
+        "file:src/components/BookingModal.jsx",
+        "file:src/components/TestimonialModal.jsx",
+        "file:src/components/ContactModal.jsx",
+        "file:src/components/VoiceModal.jsx",
+        "file:src/components/Terminal.jsx"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Custom Hooks",
+      "description": "Reusable hooks for scroll-triggered animations (useScrollReveal), smooth scrolling (useLenis), magnetic hover effects (useMagnetic), and animated counters (useCounter).",
+      "nodeIds": [
+        "file:src/hooks/useScrollReveal.js",
+        "file:src/hooks/useLenis.js",
+        "file:src/hooks/useMagnetic.js",
+        "file:src/hooks/useCounter.js"
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Data & Content",
+      "description": "Static data files that drive the portfolio content \u00e2\u20ac\u201d projects, skills, experience, testimonials, and blog posts.",
+      "nodeIds": [
+        "file:src/data/projectsData.js",
+        "file:src/data/blogData.js"
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Styling & Configuration",
+      "description": "Tailwind CSS styles and Vite bundler configuration define the build pipeline and visual theme.",
+      "nodeIds": [
+        "file:src/index.css",
+        "file:vite.config.js",
+        "file:package.json",
+        "file:eslint.config.js"
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "project": {
+    "name": "portfolio-app",
+    "languages": [
+      "javascript",
+      "css",
+      "html",
+      "markdown",
+      "json"
+    ],
+    "frameworks": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "React Router"
+    ],
+    "description": "A React + Vite portfolio application with Tailwind CSS styling, featuring smooth animations, interactive components, and voice interaction capabilities.",
+    "analyzedAt": "2026-06-24T12:42:00.000Z",
+    "gitCommitHash": "none"
+  }
+}

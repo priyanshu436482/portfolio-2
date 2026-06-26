@@ -1,0 +1,4183 @@
+{
+  "nodes": [
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": ".understandignore — unknown file",
+      "tags": [
+        "unknown",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {}
+    },
+    {
+      "id": "file:eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "eslint.config.js",
+      "summary": "eslint.config.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "file:src/App.jsx",
+      "type": "file",
+      "name": "App.jsx",
+      "filePath": "src/App.jsx",
+      "summary": "App.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 21,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/App.jsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "src/App.jsx",
+      "summary": "Function App in App.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 25,
+        "endLine": 186
+      }
+    },
+    {
+      "id": "file:src/components/About.jsx",
+      "type": "file",
+      "name": "About.jsx",
+      "filePath": "src/components/About.jsx",
+      "summary": "About.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/About.jsx:Metric",
+      "type": "function",
+      "name": "Metric",
+      "filePath": "src/components/About.jsx",
+      "summary": "Function Metric in About.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "function:src/components/About.jsx:About",
+      "type": "function",
+      "name": "About",
+      "filePath": "src/components/About.jsx",
+      "summary": "Function About in About.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 18,
+        "endLine": 46
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/BlogModal.jsx",
+      "type": "file",
+      "name": "BlogModal.jsx",
+      "filePath": "src/components/BlogModal.jsx",
+      "summary": "BlogModal.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/BlogModal.jsx:BlogModal",
+      "type": "function",
+      "name": "BlogModal",
+      "filePath": "src/components/BlogModal.jsx",
+      "summary": "Function BlogModal in BlogModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 49
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/BlogSection.jsx",
+      "type": "file",
+      "name": "BlogSection.jsx",
+      "filePath": "src/components/BlogSection.jsx",
+      "summary": "BlogSection.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/BlogSection.jsx:BlogSection",
+      "type": "function",
+      "name": "BlogSection",
+      "filePath": "src/components/BlogSection.jsx",
+      "summary": "Function BlogSection in BlogSection.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 55
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/BookingModal.jsx",
+      "type": "file",
+      "name": "BookingModal.jsx",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "BookingModal.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "type": "function",
+      "name": "generateMonthDays",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "Function generateMonthDays in BookingModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 13,
+        "endLine": 34
+      }
+    },
+    {
+      "id": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "function",
+      "name": "getTimeSlotStatus",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "Function getTimeSlotStatus in BookingModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 36,
+        "endLine": 41
+      }
+    },
+    {
+      "id": "function:src/components/BookingModal.jsx:BookingModal",
+      "type": "function",
+      "name": "BookingModal",
+      "filePath": "src/components/BookingModal.jsx",
+      "summary": "Function BookingModal in BookingModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 55,
+        "endLine": 587
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Contact.jsx",
+      "type": "file",
+      "name": "Contact.jsx",
+      "filePath": "src/components/Contact.jsx",
+      "summary": "Contact.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Contact.jsx:Contact",
+      "type": "function",
+      "name": "Contact",
+      "filePath": "src/components/Contact.jsx",
+      "summary": "Function Contact in Contact.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 1,
+        "endLine": 53
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ContactModal.jsx",
+      "type": "file",
+      "name": "ContactModal.jsx",
+      "filePath": "src/components/ContactModal.jsx",
+      "summary": "ContactModal.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ContactModal.jsx:ContactModal",
+      "type": "function",
+      "name": "ContactModal",
+      "filePath": "src/components/ContactModal.jsx",
+      "summary": "Function ContactModal in ContactModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 144
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Experience.jsx",
+      "type": "file",
+      "name": "Experience.jsx",
+      "filePath": "src/components/Experience.jsx",
+      "summary": "Experience.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Experience.jsx:Experience",
+      "type": "function",
+      "name": "Experience",
+      "filePath": "src/components/Experience.jsx",
+      "summary": "Function Experience in Experience.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 47
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Footer.jsx",
+      "type": "file",
+      "name": "Footer.jsx",
+      "filePath": "src/components/Footer.jsx",
+      "summary": "Footer.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Footer.jsx:Footer",
+      "type": "function",
+      "name": "Footer",
+      "filePath": "src/components/Footer.jsx",
+      "summary": "Function Footer in Footer.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 1,
+        "endLine": 17
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Hero.jsx",
+      "type": "file",
+      "name": "Hero.jsx",
+      "filePath": "src/components/Hero.jsx",
+      "summary": "Hero.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Hero.jsx:Hero",
+      "type": "function",
+      "name": "Hero",
+      "filePath": "src/components/Hero.jsx",
+      "summary": "Function Hero in Hero.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 100
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ImageCarousel.jsx",
+      "type": "file",
+      "name": "ImageCarousel.jsx",
+      "filePath": "src/components/ImageCarousel.jsx",
+      "summary": "ImageCarousel.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "type": "function",
+      "name": "ImageCarousel",
+      "filePath": "src/components/ImageCarousel.jsx",
+      "summary": "Function ImageCarousel in ImageCarousel.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 133
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Navbar.jsx",
+      "type": "file",
+      "name": "Navbar.jsx",
+      "filePath": "src/components/Navbar.jsx",
+      "summary": "Navbar.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Navbar.jsx:Navbar",
+      "type": "function",
+      "name": "Navbar",
+      "filePath": "src/components/Navbar.jsx",
+      "summary": "Function Navbar in Navbar.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 97
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ProjectCard.jsx",
+      "type": "file",
+      "name": "ProjectCard.jsx",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "ProjectCard.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ProjectCard.jsx:ProjectCard",
+      "type": "function",
+      "name": "ProjectCard",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "Function ProjectCard in ProjectCard.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 21
+      },
+      "exported": true
+    },
+    {
+      "id": "function:src/components/ProjectCard.jsx:VisualColumn",
+      "type": "function",
+      "name": "VisualColumn",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "Function VisualColumn in ProjectCard.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 23,
+        "endLine": 43
+      }
+    },
+    {
+      "id": "function:src/components/ProjectCard.jsx:ContentSide",
+      "type": "function",
+      "name": "ContentSide",
+      "filePath": "src/components/ProjectCard.jsx",
+      "summary": "Function ContentSide in ProjectCard.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 45,
+        "endLine": 107
+      }
+    },
+    {
+      "id": "file:src/components/ProjectModal.jsx",
+      "type": "file",
+      "name": "ProjectModal.jsx",
+      "filePath": "src/components/ProjectModal.jsx",
+      "summary": "ProjectModal.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "type": "function",
+      "name": "ProjectModal",
+      "filePath": "src/components/ProjectModal.jsx",
+      "summary": "Function ProjectModal in ProjectModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 95
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Projects.jsx",
+      "type": "file",
+      "name": "Projects.jsx",
+      "filePath": "src/components/Projects.jsx",
+      "summary": "Projects.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Projects.jsx:Projects",
+      "type": "function",
+      "name": "Projects",
+      "filePath": "src/components/Projects.jsx",
+      "summary": "Function Projects in Projects.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 7,
+        "endLine": 37
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/ScrollToTop.jsx",
+      "type": "file",
+      "name": "ScrollToTop.jsx",
+      "filePath": "src/components/ScrollToTop.jsx",
+      "summary": "ScrollToTop.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "type": "function",
+      "name": "ScrollToTop",
+      "filePath": "src/components/ScrollToTop.jsx",
+      "summary": "Function ScrollToTop in ScrollToTop.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 4,
+        "endLine": 15
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/SkillsGrid.jsx",
+      "type": "file",
+      "name": "SkillsGrid.jsx",
+      "filePath": "src/components/SkillsGrid.jsx",
+      "summary": "SkillsGrid.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/SkillsGrid.jsx:SkillsGrid",
+      "type": "function",
+      "name": "SkillsGrid",
+      "filePath": "src/components/SkillsGrid.jsx",
+      "summary": "Function SkillsGrid in SkillsGrid.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 30
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/SkillsMarquee.jsx",
+      "type": "file",
+      "name": "SkillsMarquee.jsx",
+      "filePath": "src/components/SkillsMarquee.jsx",
+      "summary": "SkillsMarquee.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "type": "function",
+      "name": "SkillsMarquee",
+      "filePath": "src/components/SkillsMarquee.jsx",
+      "summary": "Function SkillsMarquee in SkillsMarquee.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 3,
+        "endLine": 22
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Terminal.jsx",
+      "type": "file",
+      "name": "Terminal.jsx",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Terminal.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Terminal.jsx:parseANSI",
+      "type": "function",
+      "name": "parseANSI",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Function parseANSI in Terminal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 184,
+        "endLine": 209
+      }
+    },
+    {
+      "id": "function:src/components/Terminal.jsx:renderLine",
+      "type": "function",
+      "name": "renderLine",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Function renderLine in Terminal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "simple",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 211,
+        "endLine": 214
+      }
+    },
+    {
+      "id": "function:src/components/Terminal.jsx:Terminal",
+      "type": "function",
+      "name": "Terminal",
+      "filePath": "src/components/Terminal.jsx",
+      "summary": "Function Terminal in Terminal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 216,
+        "endLine": 343
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/TestimonialModal.jsx",
+      "type": "file",
+      "name": "TestimonialModal.jsx",
+      "filePath": "src/components/TestimonialModal.jsx",
+      "summary": "TestimonialModal.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "type": "function",
+      "name": "TestimonialModal",
+      "filePath": "src/components/TestimonialModal.jsx",
+      "summary": "Function TestimonialModal in TestimonialModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 1,
+        "endLine": 33
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/Testimonials.jsx",
+      "type": "file",
+      "name": "Testimonials.jsx",
+      "filePath": "src/components/Testimonials.jsx",
+      "summary": "Testimonials.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/Testimonials.jsx:Testimonials",
+      "type": "function",
+      "name": "Testimonials",
+      "filePath": "src/components/Testimonials.jsx",
+      "summary": "Function Testimonials in Testimonials.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 5,
+        "endLine": 83
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/components/VoiceModal.jsx",
+      "type": "file",
+      "name": "VoiceModal.jsx",
+      "filePath": "src/components/VoiceModal.jsx",
+      "summary": "VoiceModal.jsx — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "type": "function",
+      "name": "VoiceModal",
+      "filePath": "src/components/VoiceModal.jsx",
+      "summary": "Function VoiceModal in VoiceModal.jsx",
+      "tags": [
+        "javascript"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "startLine": 16,
+        "endLine": 135
+      },
+      "exported": true
+    },
+    {
+      "id": "file:src/data/blogData.js",
+      "type": "file",
+      "name": "blogData.js",
+      "filePath": "src/data/blogData.js",
+      "summary": "blogData.js — javascript file",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "id": "function:src/data/blogData.js:blogData",
+      "type": "function",
+      "name": "blogData",
+      "filePath": "src/data/blogData.js",
+      "summary": "Exported function blogData",
+      "tags": [
+        "javascript",
+        "exported"
+      ],
+      "complexity": "moderate",
+      "languageNotes": {},
+      "metrics": {
+        "isDefault": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/App.jsx",
+      "target": "function:src/App.jsx:App",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useLenis",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useScrollReveal",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:document.body.classList.add",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:lenis.stop",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:document.body.classList.remove",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:lenis.start",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:window.scrollTo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:document.body.classList.remove",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:document.querySelectorAll",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:onMove",
+      "target": "function:src/App.jsx:btn.getBoundingClientRect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:buttons.forEach",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:btn.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:btn.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:buttons.forEach",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:btn.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:btn.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:onScroll",
+      "target": "function:src/App.jsx:requestAnimationFrame",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:onScroll",
+      "target": "function:src/App.jsx:document.querySelectorAll('.parallax-wrap').forEach",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:onScroll",
+      "target": "function:src/App.jsx:document.querySelectorAll",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:onScroll",
+      "target": "function:src/App.jsx:parseFloat",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:onScroll",
+      "target": "function:src/App.jsx:el.getAttribute",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:onScroll",
+      "target": "function:src/App.jsx:el.getBoundingClientRect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:window.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:window.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:handleClick",
+      "target": "function:src/App.jsx:e.target.closest",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:handleClick",
+      "target": "function:src/App.jsx:link.getAttribute",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:handleClick",
+      "target": "function:src/App.jsx:document.querySelector",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:handleClick",
+      "target": "function:src/App.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:handleClick",
+      "target": "function:src/App.jsx:lenisRef.current.scrollTo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:handleClick",
+      "target": "function:src/App.jsx:target.scrollIntoView",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:document.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:App",
+      "target": "function:src/App.jsx:document.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openContact",
+      "target": "function:src/App.jsx:setContactOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeContact",
+      "target": "function:src/App.jsx:setContactOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openBooking",
+      "target": "function:src/App.jsx:setBookingOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeBooking",
+      "target": "function:src/App.jsx:setBookingOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openProject",
+      "target": "function:src/App.jsx:setSelectedProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openProject",
+      "target": "function:src/App.jsx:setProjectModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeProject",
+      "target": "function:src/App.jsx:setProjectModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeProject",
+      "target": "function:src/App.jsx:setSelectedProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openVoice",
+      "target": "function:src/App.jsx:setVoiceProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openVoice",
+      "target": "function:src/App.jsx:setVoiceModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeVoice",
+      "target": "function:src/App.jsx:setVoiceModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeVoice",
+      "target": "function:src/App.jsx:setVoiceProject",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openArticle",
+      "target": "function:src/App.jsx:setSelectedArticle",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:openArticle",
+      "target": "function:src/App.jsx:setBlogModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeArticle",
+      "target": "function:src/App.jsx:setBlogModalOpen",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/App.jsx:closeArticle",
+      "target": "function:src/App.jsx:setSelectedArticle",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/About.jsx",
+      "target": "function:src/components/About.jsx:Metric",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/About.jsx",
+      "target": "function:src/components/About.jsx:About",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/About.jsx:Metric",
+      "target": "function:src/components/About.jsx:useCounter",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/About.jsx",
+      "target": "function:src/components/About.jsx:About",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogModal.jsx",
+      "target": "function:src/components/BlogModal.jsx:BlogModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BlogModal.jsx:BlogModal",
+      "target": "function:src/components/BlogModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BlogModal.jsx:BlogModal",
+      "target": "function:src/components/BlogModal.jsx:article.tags.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BlogModal.jsx:BlogModal",
+      "target": "function:src/components/BlogModal.jsx:article.sections.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogModal.jsx",
+      "target": "function:src/components/BlogModal.jsx:BlogModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogSection.jsx",
+      "target": "function:src/components/BlogSection.jsx:BlogSection",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BlogSection.jsx:BlogSection",
+      "target": "function:src/components/BlogSection.jsx:blogData.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BlogSection.jsx:BlogSection",
+      "target": "function:src/components/BlogSection.jsx:onOpenArticle",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BlogSection.jsx:BlogSection",
+      "target": "function:src/components/BlogSection.jsx:onOpenArticle",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BlogSection.jsx",
+      "target": "function:src/components/BlogSection.jsx:BlogSection",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:BookingModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:new Date(year, month, 1).getDay",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:new Date(year, month + 1, 0).getDate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:today.setHours",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:days.push",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:date.getDay",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:[5, 12, 19, 26].includes",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:[8, 15, 22, 29].includes",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:Math.floor",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "target": "function:src/components/BookingModal.jsx:days.push",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "target": "function:src/components/BookingModal.jsx:bookedIndices.includes",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useMemo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:d.getFullYear",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:d.getMonth",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:d.getDate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:new Date().getMonth",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:new Date().getFullYear",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:useMemo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:generateMonthDays",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:goToStep",
+      "target": "function:src/components/BookingModal.jsx:setStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:goToStep",
+      "target": "function:src/components/BookingModal.jsx:setFormError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setSelectedDate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setSelectedTime",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setForm",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setConfirmed",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setFormError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setMode",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setVoicePhase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:reset",
+      "target": "function:src/components/BookingModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:switchMode",
+      "target": "function:src/components/BookingModal.jsx:setMode",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:switchMode",
+      "target": "function:src/components/BookingModal.jsx:startVoiceBooking",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:switchMode",
+      "target": "function:src/components/BookingModal.jsx:setVoicePhase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:switchMode",
+      "target": "function:src/components/BookingModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:switchMode",
+      "target": "function:src/components/BookingModal.jsx:clearTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:switchMode",
+      "target": "function:src/components/BookingModal.jsx:clearInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:startVoiceBooking",
+      "target": "function:src/components/BookingModal.jsx:setVoicePhase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:startVoiceBooking",
+      "target": "function:src/components/BookingModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:days.find",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setSelectedDate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:TIME_SLOTS.find",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setSelectedTime",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setForm",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setVoicePhase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setConfirmed",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setVoicePhase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:VOICE_BOOKING_PHRASES[pIdx].split",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:clearInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:clearInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:days.find",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setSelectedDate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:TIME_SLOTS.find",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setSelectedTime",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setForm",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:advancePhrase",
+      "target": "function:src/components/BookingModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:startVoiceBooking",
+      "target": "function:src/components/BookingModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handlePrevMonth",
+      "target": "function:src/components/BookingModal.jsx:setViewMonth",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handlePrevMonth",
+      "target": "function:src/components/BookingModal.jsx:setViewYear",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handlePrevMonth",
+      "target": "function:src/components/BookingModal.jsx:setViewMonth",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleNextMonth",
+      "target": "function:src/components/BookingModal.jsx:setViewMonth",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleNextMonth",
+      "target": "function:src/components/BookingModal.jsx:setViewYear",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleNextMonth",
+      "target": "function:src/components/BookingModal.jsx:setViewMonth",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleSelectDate",
+      "target": "function:src/components/BookingModal.jsx:setSelectedDate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleSelectDate",
+      "target": "function:src/components/BookingModal.jsx:setSelectedTime",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleSelectTime",
+      "target": "function:src/components/BookingModal.jsx:setSelectedTime",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleFormChange",
+      "target": "function:src/components/BookingModal.jsx:setForm",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:setFormError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:setFormError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:form.email.includes",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:setFormError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:setFormError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:handleConfirm",
+      "target": "function:src/components/BookingModal.jsx:setConfirmed",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:reset",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:selectedDate.date.toLocaleDateString",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:switchMode",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:switchMode",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:selectedDate.date.toLocaleDateString",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:reset",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:Array.from({ length: 28 }).map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:Array.from",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:transcriptWords.join",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:switchMode",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:['Select Date', 'Select Time', 'Your Details'].map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:WEEKDAYS.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:days.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:handleSelectDate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:d.date.toLocaleDateString",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:goToStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:selectedDate.date.toLocaleDateString",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:goToStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:TIME_SLOTS.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:getTimeSlotStatus",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:handleSelectTime",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:goToStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:goToStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:selectedDate.date.toLocaleDateString",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:goToStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/BookingModal.jsx:BookingModal",
+      "target": "function:src/components/BookingModal.jsx:goToStep",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/BookingModal.jsx",
+      "target": "function:src/components/BookingModal.jsx:BookingModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Contact.jsx",
+      "target": "function:src/components/Contact.jsx:Contact",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:handleRipple",
+      "target": "function:src/components/Contact.jsx:document.createElement",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:handleRipple",
+      "target": "function:src/components/Contact.jsx:btn.getBoundingClientRect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:handleRipple",
+      "target": "function:src/components/Contact.jsx:Math.max",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:handleRipple",
+      "target": "function:src/components/Contact.jsx:btn.appendChild",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:handleRipple",
+      "target": "function:src/components/Contact.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:handleRipple",
+      "target": "function:src/components/Contact.jsx:ripple.remove",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:Contact",
+      "target": "function:src/components/Contact.jsx:handleRipple",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Contact.jsx:Contact",
+      "target": "function:src/components/Contact.jsx:onOpenModal",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Contact.jsx",
+      "target": "function:src/components/Contact.jsx:Contact",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ContactModal.jsx",
+      "target": "function:src/components/ContactModal.jsx:ContactModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleChange",
+      "target": "function:src/components/ContactModal.jsx:setFormState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleChange",
+      "target": "function:src/components/ContactModal.jsx:e.target.id.replace('form', '').toLowerCase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleChange",
+      "target": "function:src/components/ContactModal.jsx:e.target.id.replace",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleSubmit",
+      "target": "function:src/components/ContactModal.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleSubmit",
+      "target": "function:src/components/ContactModal.jsx:setError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleSubmit",
+      "target": "function:src/components/ContactModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleSubmit",
+      "target": "function:src/components/ContactModal.jsx:setError",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:handleSubmit",
+      "target": "function:src/components/ContactModal.jsx:setSubmitted",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:['Name', 'Email', 'Subject'].map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:field.toLowerCase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:setSubmitted",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ContactModal.jsx:ContactModal",
+      "target": "function:src/components/ContactModal.jsx:setFormState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ContactModal.jsx",
+      "target": "function:src/components/ContactModal.jsx:ContactModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Experience.jsx",
+      "target": "function:src/components/Experience.jsx:Experience",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Experience.jsx:Experience",
+      "target": "function:src/components/Experience.jsx:experienceData.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Experience.jsx:Experience",
+      "target": "function:src/components/Experience.jsx:exp.skills.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Experience.jsx",
+      "target": "function:src/components/Experience.jsx:Experience",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Footer.jsx",
+      "target": "function:src/components/Footer.jsx:Footer",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Footer.jsx",
+      "target": "function:src/components/Footer.jsx:Footer",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Hero.jsx",
+      "target": "function:src/components/Hero.jsx:Hero",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:document.createElement",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:particle.style.setProperty",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:particle.style.setProperty",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:particle.style.setProperty",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:particle.style.setProperty",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:particle.style.setProperty",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:Math.random",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:container.appendChild",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:onMove",
+      "target": "function:src/components/Hero.jsx:section.getBoundingClientRect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:section.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:section.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:section.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:section.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Hero.jsx:Hero",
+      "target": "function:src/components/Hero.jsx:[1, 2, 3, 4].map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Hero.jsx",
+      "target": "function:src/components/Hero.jsx:Hero",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ImageCarousel.jsx",
+      "target": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useCallback",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:setCurrent",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useCallback",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:setCurrent",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useCallback",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:setCurrent",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:setInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:clearInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleKey",
+      "target": "function:src/components/ImageCarousel.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleKey",
+      "target": "function:src/components/ImageCarousel.jsx:goNext",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleKey",
+      "target": "function:src/components/ImageCarousel.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleKey",
+      "target": "function:src/components/ImageCarousel.jsx:goPrev",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:window.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:window.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleTouchStart",
+      "target": "function:src/components/ImageCarousel.jsx:setTouchStart",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleTouchMove",
+      "target": "function:src/components/ImageCarousel.jsx:setTouchEnd",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleTouchEnd",
+      "target": "function:src/components/ImageCarousel.jsx:Math.abs",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleTouchEnd",
+      "target": "function:src/components/ImageCarousel.jsx:goNext",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleTouchEnd",
+      "target": "function:src/components/ImageCarousel.jsx:goPrev",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleTouchEnd",
+      "target": "function:src/components/ImageCarousel.jsx:setTouchStart",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:handleTouchEnd",
+      "target": "function:src/components/ImageCarousel.jsx:setTouchEnd",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:setPaused",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:setPaused",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:images.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:e.stopPropagation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:goPrev",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:e.stopPropagation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:goNext",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:images.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:e.stopPropagation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "target": "function:src/components/ImageCarousel.jsx:goTo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ImageCarousel.jsx",
+      "target": "function:src/components/ImageCarousel.jsx:ImageCarousel",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Navbar.jsx",
+      "target": "function:src/components/Navbar.jsx:Navbar",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:useLocation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:useCallback",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:setScrolled",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:setHidden",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:setHidden",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:setScrolled",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:setHidden",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:setLastScroll",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:window.addEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Navbar.jsx:Navbar",
+      "target": "function:src/components/Navbar.jsx:window.removeEventListener",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Navbar.jsx",
+      "target": "function:src/components/Navbar.jsx:Navbar",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:ProjectCard",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:VisualColumn",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:ContentSide",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectCard.jsx:ProjectCard",
+      "target": "function:src/components/ProjectCard.jsx:onClick",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectCard.jsx:ContentSide",
+      "target": "function:src/components/ProjectCard.jsx:Object.entries",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectCard.jsx:ContentSide",
+      "target": "function:src/components/ProjectCard.jsx:project.tech.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectCard.jsx:ContentSide",
+      "target": "function:src/components/ProjectCard.jsx:metrics.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectCard.jsx:ContentSide",
+      "target": "function:src/components/ProjectCard.jsx:project.links.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectCard.jsx:ContentSide",
+      "target": "function:src/components/ProjectCard.jsx:e.stopPropagation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectCard.jsx",
+      "target": "function:src/components/ProjectCard.jsx:ProjectCard",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectModal.jsx",
+      "target": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "target": "function:src/components/ProjectModal.jsx:projectsData.find",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "target": "function:src/components/ProjectModal.jsx:Object.entries",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "target": "function:src/components/ProjectModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "target": "function:src/components/ProjectModal.jsx:p.tech.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "target": "function:src/components/ProjectModal.jsx:onOpenVoice",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "target": "function:src/components/ProjectModal.jsx:metrics.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "target": "function:src/components/ProjectModal.jsx:p.links.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ProjectModal.jsx",
+      "target": "function:src/components/ProjectModal.jsx:ProjectModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Projects.jsx",
+      "target": "function:src/components/Projects.jsx:Projects",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Projects.jsx:Projects",
+      "target": "function:src/components/Projects.jsx:projectsData.slice",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Projects.jsx:Projects",
+      "target": "function:src/components/Projects.jsx:featured.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Projects.jsx",
+      "target": "function:src/components/Projects.jsx:Projects",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ScrollToTop.jsx",
+      "target": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "target": "function:src/components/ScrollToTop.jsx:useLocation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "target": "function:src/components/ScrollToTop.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "target": "function:src/components/ScrollToTop.jsx:window.scrollTo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "target": "function:src/components/ScrollToTop.jsx:lenisRef.current.scrollTo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/ScrollToTop.jsx",
+      "target": "function:src/components/ScrollToTop.jsx:ScrollToTop",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsGrid.jsx",
+      "target": "function:src/components/SkillsGrid.jsx:SkillsGrid",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/SkillsGrid.jsx:SkillsGrid",
+      "target": "function:src/components/SkillsGrid.jsx:skillsData.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsGrid.jsx",
+      "target": "function:src/components/SkillsGrid.jsx:SkillsGrid",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsMarquee.jsx",
+      "target": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "target": "function:src/components/SkillsMarquee.jsx:[...techMarqueeItems, ...techMarqueeItems].map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "target": "function:src/components/SkillsMarquee.jsx:item.label.split",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/SkillsMarquee.jsx",
+      "target": "function:src/components/SkillsMarquee.jsx:SkillsMarquee",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:parseANSI",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:renderLine",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:Terminal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:parseANSI",
+      "target": "function:src/components/Terminal.jsx:String.fromCharCode",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:parseANSI",
+      "target": "function:src/components/Terminal.jsx:text.split",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:parseANSI",
+      "target": "function:src/components/Terminal.jsx:part.match",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:parseANSI",
+      "target": "function:src/components/Terminal.jsx:match[1].split",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:parseANSI",
+      "target": "function:src/components/Terminal.jsx:result.push",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:renderLine",
+      "target": "function:src/components/Terminal.jsx:parseANSI",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:useCallback",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:cmd.trim().toLowerCase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:cmd.trim",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:setHistory",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:setHistIdx",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:setLines",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:Object.keys(commands).find",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:Object.keys",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:setLines",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:commands[matchedKey].fn",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:setLines",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:handleCommand",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:setInput",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:Math.max",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:setHistIdx",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:setInput",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:setHistIdx",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:setInput",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:setHistIdx",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:handleKeyDown",
+      "target": "function:src/components/Terminal.jsx:setInput",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:close",
+      "target": "function:src/components/Terminal.jsx:onOpenChange",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:toggleOpen",
+      "target": "function:src/components/Terminal.jsx:onOpenChange",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:toggleOpen",
+      "target": "function:src/components/Terminal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:toggleOpen",
+      "target": "function:src/components/Terminal.jsx:inputRef.current?.focus",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:e.stopPropagation",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:lines.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:renderLine",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Terminal.jsx:Terminal",
+      "target": "function:src/components/Terminal.jsx:setInput",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Terminal.jsx",
+      "target": "function:src/components/Terminal.jsx:Terminal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/TestimonialModal.jsx",
+      "target": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "target": "function:src/components/TestimonialModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "target": "function:src/components/TestimonialModal.jsx:[1, 2, 3, 4, 5].map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/TestimonialModal.jsx",
+      "target": "function:src/components/TestimonialModal.jsx:TestimonialModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Testimonials.jsx",
+      "target": "function:src/components/Testimonials.jsx:Testimonials",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:document.body.classList.add",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:document.body.classList.remove",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:window.scrollTo",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:document.body.classList.remove",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:truncate",
+      "target": "function:src/components/Testimonials.jsx:text.slice",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:testimonialsData.map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:setSelected",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:e.preventDefault",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:setSelected",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:[1, 2, 3, 4, 5].map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:truncate",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/Testimonials.jsx:Testimonials",
+      "target": "function:src/components/Testimonials.jsx:setSelected",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/Testimonials.jsx",
+      "target": "function:src/components/Testimonials.jsx:Testimonials",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/VoiceModal.jsx",
+      "target": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:useState",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:useRef",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:useEffect",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:advancePhrase",
+      "target": "function:src/components/VoiceModal.jsx:PHRASES[phraseIdx].split",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:advancePhrase",
+      "target": "function:src/components/VoiceModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:advancePhrase",
+      "target": "function:src/components/VoiceModal.jsx:setInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:advancePhrase",
+      "target": "function:src/components/VoiceModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:advancePhrase",
+      "target": "function:src/components/VoiceModal.jsx:clearInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:advancePhrase",
+      "target": "function:src/components/VoiceModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:setPhase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:clearInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:clearTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:setTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:clearTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:clearTimeout",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:clearInterval",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:setPhase",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:setTranscriptWords",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:onClose",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:Array.from({ length: 36 }).map",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:Array.from",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "target": "function:src/components/VoiceModal.jsx:transcriptWords.join",
+      "type": "calls",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/components/VoiceModal.jsx",
+      "target": "function:src/components/VoiceModal.jsx:VoiceModal",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/blogData.js",
+      "target": "function:src/data/blogData.js:blogData",
+      "type": "contains",
+      "weight": 1,
+      "direction": "forward"
+    },
+    {
+      "source": "file:src/data/blogData.js",
+      "target": "function:src/data/blogData.js:blogData",
+      "type": "exports",
+      "weight": 0.8,
+      "direction": "forward"
+    }
+  ]
+}

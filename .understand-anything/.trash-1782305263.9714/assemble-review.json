@@ -1,0 +1,28 @@
+{
+  "issues": [],
+  "warnings": [
+    "Node 'file:README.md' has no edges (orphan)",
+    "Node 'file:index.html' has no edges (orphan)",
+    "Node 'file:package.json' has no edges (orphan)",
+    "Node 'file:.understand-anything/.understandignore' has no edges (orphan)",
+    "Node 'file:eslint.config.js' has no edges (orphan)",
+    "Node 'file:src/index.css' has no edges (orphan)",
+    "Node 'file:src/main.jsx' has no edges (orphan)",
+    "Node 'file:vite.config.js' has no edges (orphan)"
+  ],
+  "stats": {
+    "totalNodes": 77,
+    "totalEdges": 76,
+    "nodeTypes": {
+      "document": 1,
+      "file": 35,
+      "config": 1,
+      "function": 40
+    },
+    "edgeTypes": {
+      "contains": 40,
+      "exports": 32,
+      "calls": 4
+    }
+  }
+}

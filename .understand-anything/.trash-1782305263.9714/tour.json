@@ -1,0 +1,91 @@
+[
+  {
+    "order": 1,
+    "title": "Project Overview",
+    "description": "Start with the README to understand the project purpose \u00e2\u20ac\u201d a React + Vite portfolio application with Tailwind CSS styling.",
+    "nodeIds": [
+      "file:README.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Application Entry",
+    "description": "The app boots from src/main.jsx, mounting the root React component defined in src/App.jsx with React Router for navigation.",
+    "nodeIds": [
+      "file:src/main.jsx",
+      "file:src/App.jsx"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Pages & Routing",
+    "description": "Page-level components define the main routes. ProjectsPage manages the project showcase with filtering and voice interaction.",
+    "nodeIds": [
+      "file:src/pages/ProjectsPage.jsx"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "UI Components",
+    "description": "Reusable components including the Hero section, Navbar, About section, Experience timeline, Skills display, Testimonials, Blog, Contact, and Footer. Modals provide expanded views for projects, booking, testimonials, blog, and voice interaction.",
+    "nodeIds": [
+      "file:src/components/Hero.jsx",
+      "file:src/components/Navbar.jsx",
+      "file:src/components/About.jsx",
+      "file:src/components/Experience.jsx",
+      "file:src/components/SkillsGrid.jsx",
+      "file:src/components/SkillsMarquee.jsx",
+      "file:src/components/Testimonials.jsx",
+      "file:src/components/BlogSection.jsx",
+      "file:src/components/Projects.jsx",
+      "file:src/components/Contact.jsx",
+      "file:src/components/Footer.jsx",
+      "file:src/components/ProjectCard.jsx"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "Modal Components",
+    "description": "Detail modals for projects, blog posts, booking, testimonials, and the interactive terminal and voice assistant.",
+    "nodeIds": [
+      "file:src/components/ProjectModal.jsx",
+      "file:src/components/BlogModal.jsx",
+      "file:src/components/BookingModal.jsx",
+      "file:src/components/TestimonialModal.jsx",
+      "file:src/components/ContactModal.jsx",
+      "file:src/components/VoiceModal.jsx",
+      "file:src/components/Terminal.jsx"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Custom Hooks",
+    "description": "Reusable hooks for scroll-triggered animations (useScrollReveal), smooth scrolling (useLenis), magnetic hover effects (useMagnetic), and animated counters (useCounter).",
+    "nodeIds": [
+      "file:src/hooks/useScrollReveal.js",
+      "file:src/hooks/useLenis.js",
+      "file:src/hooks/useMagnetic.js",
+      "file:src/hooks/useCounter.js"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "Data & Content",
+    "description": "Static data files that drive the portfolio content \u00e2\u20ac\u201d projects, skills, experience, testimonials, and blog posts.",
+    "nodeIds": [
+      "file:src/data/projectsData.js",
+      "file:src/data/blogData.js"
+    ]
+  },
+  {
+    "order": 8,
+    "title": "Styling & Configuration",
+    "description": "Tailwind CSS styles and Vite bundler configuration define the build pipeline and visual theme.",
+    "nodeIds": [
+      "file:src/index.css",
+      "file:vite.config.js",
+      "file:package.json",
+      "file:eslint.config.js"
+    ]
+  }
+]
