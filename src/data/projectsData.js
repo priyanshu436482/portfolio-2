@@ -1,3 +1,5 @@
+import { REGION } from './config';
+
 export const projectsData = [
   {
     id: 0, title: 'Shuh Appliance', year: '2024', category: 'Web App', type: 'web',
@@ -116,41 +118,29 @@ export const skillsData = [
 ];
 
 export const techMarqueeItems = [
-  { icon: 'fa-brands fa-react', color: 'text-sky-500', label: 'React' },
-  { icon: 'fa-brands fa-angular', color: 'text-red-500', label: 'Angular' },
-  { icon: 'fa-brands fa-vuejs', color: 'text-emerald-500', label: 'Vue.js' },
-  { icon: null, style: { color: '#512BD4', fontWeight: 700 }, label: '.NET Core' },
-  { icon: 'fa-brands fa-node', color: 'text-green-600', label: 'Node.js' },
-  { icon: 'fa-solid fa-database', color: 'text-blue-600', label: 'PostgreSQL' },
-  { icon: 'fa-solid fa-database', color: 'text-orange-600', label: 'SQL Server' },
-  { icon: 'fa-solid fa-leaf', color: 'text-green-500', label: 'MongoDB' },
-  { icon: '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" xmlns="http://www.w3.org/2000/svg"><path d="M14.314 0L2.3 12 6 15.7 21.684.012h-7.357L14.314 0zm.014 11.072l-6.471 6.457 6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.371z"/></svg>', color: 'text-sky-400', label: 'Flutter' },
-  { icon: 'fa-brands fa-microsoft', color: 'text-blue-600', label: 'Azure' },
-  { icon: 'fa-brands fa-aws', color: 'text-orange-400', label: 'AWS' },
-  { icon: 'fa-brands fa-docker', color: 'text-blue-500', label: 'Docker' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg', label: 'React' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg', label: 'Angular' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg', label: 'Vue.js' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg', label: '.NET Core' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg', label: 'Node.js' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg', label: 'PostgreSQL' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg', label: 'SQL Server' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg', label: 'MongoDB' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg', label: 'Flutter' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg', label: 'Azure' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', label: 'AWS' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg', label: 'Docker' },
   { icon: 'fa-solid fa-brain', color: 'text-purple-500', label: 'AI / LLM' },
-  { icon: 'fa-brands fa-python', color: 'text-yellow-600', label: 'Python' },
-  { icon: 'fa-brands fa-php', color: 'text-indigo-600', label: 'PHP' },
-  { icon: 'fa-brands fa-laravel', color: 'text-red-600', label: 'Laravel' },
-  { icon: 'fa-brands fa-wordpress', color: 'text-blue-700', label: 'WordPress' },
-  { icon: 'fa-brands fa-js', color: 'text-yellow-500', label: 'JavaScript' },
-  { icon: 'fa-brands fa-html5', color: 'text-orange-500', label: 'HTML/CSS' },
-  { icon: 'fa-brands fa-figma', color: 'text-purple-500', label: 'Figma' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', label: 'Python' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg', label: 'PHP' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg', label: 'Laravel' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg', label: 'WordPress' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg', label: 'JavaScript' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg', label: 'HTML/CSS' },
+  { imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg', label: 'Figma' },
 ];
 
-export const experienceData = [
-
-  {
-    period: 'Jul 2025 – Present',
-    title: 'Senior Full Stack Developer',
-    company: 'Nexuron Technologies',
-    type: 'Full-time',
-    duration: '11 mos',
-    location: 'Kadi, Gujarat, India · Remote',
-    desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end-to-end project lifecycles, from requirement gathering to delivery, ensuring high-quality solutions.',
-    skills: ['React', 'Node.js', 'Laravel', 'Vue.js', 'and 11 additional skills.'],
-    align: 'right'
-  },
+const commonExperienceData = [
   {
     period: 'May 2022 – Sep 2022',
     title: 'Solution Technology Architect',
@@ -196,6 +186,38 @@ export const experienceData = [
     align: 'right'
   }
 ];
+
+const experienceDataIndia = [
+  {
+    period: 'Dec 2022 – Present',
+    title: 'Senior Full Stack Developer',
+    company: 'Nexuron Technologies',
+    type: 'Full-time',
+    duration: '11 mos',
+    location: 'Kadi, Gujarat, India · Remote',
+    desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end-to-end project lifecycles, from requirement gathering to delivery, ensuring high-quality software solutions.',
+    skills: ['React', 'Node.js', 'and additional skills'],
+    align: 'right'
+  },
+  ...commonExperienceData
+];
+
+const experienceDataCanada = [
+  {
+    period: 'Jul 2025 – Present',
+    title: 'Senior Full Stack Developer',
+    company: 'Nexuron Technologies',
+    type: 'Full-time',
+    duration: '11 mos',
+    location: 'Kadi, Gujarat, India · Remote',
+    desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end-to-end project lifecycles, from requirement gathering to delivery, ensuring high-quality solutions.',
+    skills: ['React', 'Node.js', 'Laravel', 'Vue.js', 'and 11 additional skills'],
+    align: 'right'
+  },
+  ...commonExperienceData
+];
+
+export const experienceData = REGION === 'canada' ? experienceDataCanada : experienceDataIndia;
 
 export const testimonialsData = [
   {

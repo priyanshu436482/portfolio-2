@@ -19,7 +19,8 @@ export default function SkillsGrid({ activeSkill, setActiveSkill }) {
             return (
               <div key={i} className="reveal">
                 <div
-                  className={`skill-card glass-card rounded-2xl p-6 md:p-8 relative overflow-hidden transition-all duration-300 ${
+                  style={{ backgroundColor: '#ffffff', background: '#ffffff' }}
+                  className={`skill-card rounded-2xl p-6 md:p-8 relative overflow-hidden transition-all duration-300 border border-gray-100/50 shadow-sm ${
                     isHovered ? 'border-[var(--accent-1)] shadow-md translate-y-[-4px]' : ''
                   }`}
                   onMouseEnter={() => setActiveSkill(skill.title)}

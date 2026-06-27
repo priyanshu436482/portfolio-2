@@ -41,7 +41,7 @@ export default function Navbar({ onOpenModal, onOpenBooking }) {
   return (
     <header
       id="navbar"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isNavbarActive ? 'nav-blur shadow-sm' : ''}`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isNavbarActive ? 'nav-blur' : ''}`}
       style={{
         transform: hidden ? 'translateY(-100%)' : 'translateY(0)',
         opacity: hidden ? 0 : 1,
@@ -98,14 +98,6 @@ export default function Navbar({ onOpenModal, onOpenBooking }) {
           )}
         </div>
       </div>
-      {/* Scroll progress bar */}
-      {isHome && isNavbarActive && (
-        <div
-          className="scroll-progress"
-          style={{ width: `${scrollProgress}%` }}
-          aria-hidden="true"
-        />
-      )}
     </header>
   );
 }

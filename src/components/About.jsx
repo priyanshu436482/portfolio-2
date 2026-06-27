@@ -102,22 +102,24 @@ export default function About() {
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {[
-                { name: 'Next.js / React', icon: 'fa-brands fa-react', color: 'text-[#0ea5e9]' },
-                { name: 'Angular', icon: 'fa-brands fa-angular', color: 'text-[#ef4444]' },
-                { name: 'Vue.js', icon: 'fa-brands fa-vuejs', color: 'text-[#10b981]' },
-                { name: '.NET Core', icon: 'fa-solid fa-cube', color: 'text-[#7c3aed]' },
-                { name: 'Node.js', icon: 'fa-brands fa-node-js', color: 'text-[#22c55e]' },
-                { name: 'Python', icon: 'fa-brands fa-python', color: 'text-[#eab308]' },
-                { name: 'PHP', icon: 'fa-brands fa-php', color: 'text-[#6366f1]' },
-                { name: 'Laravel', icon: 'fa-brands fa-laravel', color: 'text-[#f43f5e]' },
-                { name: 'WordPress', icon: 'fa-brands fa-wordpress', color: 'text-[#0284c7]' },
-                { name: 'Flutter', icon: '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" xmlns="http://www.w3.org/2000/svg"><path d="M14.314 0L2.3 12 6 15.7 21.684.012h-7.357L14.314 0zm.014 11.072l-6.471 6.457 6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.371z"/></svg>', color: 'text-[#38bdf8]' },
-                { name: 'AWS / Cloud', icon: 'fa-brands fa-aws', color: 'text-[#f97316]' },
-                { name: 'Docker', icon: 'fa-brands fa-docker', color: 'text-[#2563eb]' },
+                { name: 'Next.js / React', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg' },
+                { name: 'Angular', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg' },
+                { name: 'Vue.js', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg' },
+                { name: '.NET Core', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg' },
+                { name: 'Node.js', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg' },
+                { name: 'Python', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' },
+                { name: 'PHP', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg' },
+                { name: 'Laravel', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg' },
+                { name: 'WordPress', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg' },
+                { name: 'Flutter', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg' },
+                { name: 'AWS / Cloud', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
+                { name: 'Docker', imgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg' },
                 { name: 'AI Integrations', icon: 'fa-solid fa-brain', color: 'text-[#a855f7]' }
               ].map((tech) => (
                 <div key={tech.name} className="flex items-center gap-2.5 p-3 bg-[#FAF9F5] border border-[#0f172a08] rounded-lg">
-                  {tech.icon.startsWith('<svg') ? (
+                  {tech.imgUrl ? (
+                    <img src={tech.imgUrl} alt={tech.name} className="w-4 h-4 object-contain" />
+                  ) : tech.icon && tech.icon.startsWith('<svg') ? (
                     <span className={`w-3.5 h-3.5 flex items-center justify-center ${tech.color}`} dangerouslySetInnerHTML={{ __html: tech.icon }}></span>
                   ) : (
                     <i className={`${tech.icon} ${tech.color} text-sm`}></i>
