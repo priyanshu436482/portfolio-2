@@ -39,7 +39,7 @@ export default function Contact({ onOpenModal }) {
               <i className="fa-solid fa-paper-plane"></i> Send a Message
             </button>
           </div>
-          <a href="mailto:hi@umeshpatel.com" className="btn-outline magnetic-btn text-base !py-4 !px-7 contact-ripple-btn" onClick={handleRipple}>
+          <a href="mailto:umeshmca.kadi@gmail.com" className="btn-outline magnetic-btn text-base !py-4 !px-7 contact-ripple-btn" onClick={handleRipple}>
             <i className="fa-solid fa-envelope"></i> Email Directly
           </a>
         </div>

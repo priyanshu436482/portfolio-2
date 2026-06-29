@@ -4,82 +4,91 @@ export const projectsData = [
   {
     id: 0, title: 'Shuh Appliance', year: '2024', category: 'Web App', type: 'web',
     description: 'An innovative web application for Shuh Appliance.',
+    summary: 'A comprehensive e-commerce and appliance management platform built with modern technologies. Shuh Appliance provides a complete solution for discovering, managing, and purchasing home appliances, featuring real-time inventory tracking and a seamless customer checkout experience.',
     emoji: '🔌', visualTitle: 'Shuh Appliance', visualSub: 'Appliance Management', image: '/projects/shuh_1.png', images: ['/projects/shuh_1.png', '/projects/shuh_2.png', '/projects/shuh_3.png', '/projects/shuh_4.png'],
     tech: ['React', 'Node.js', 'Tailwind CSS'],
     metrics: { 'Users': '1K+' },
-    links: [],
+    links: [{ url: 'https://shuhappliance.com/', label: 'Live Site' }],
     accent: '#2563EB'
   },
   {
     id: 1, title: 'Rx Incidence', year: '2024', category: 'Health Tech', type: 'web',
     description: 'Healthcare tracking and incidence reporting system.',
+    summary: 'An advanced healthcare tracking and incidence reporting platform that streamlines medical compliance and patient safety assessments. Rx Incidence provides medical professionals with secure, HIPAA-compliant tools to report, analyze, and manage clinical incidents through intelligent automation.',
     emoji: '⚕️', visualTitle: 'Rx Incidence', visualSub: 'Incidence Tracking', image: '/projects/rx_incident.png', images: ['/projects/rx_incident_1.png', '/projects/rx_incident_2.png', '/projects/rx_incident_3.png'],
     tech: ['Next.js', 'PostgreSQL'],
     metrics: { 'Incidents': '10K+' },
-    links: [],
+    links: [{ url: 'https://incident.myonerx.ca/', label: 'Live Site' }],
     accent: '#7C3AED'
   },
   {
     id: 2, title: 'State Technologies', year: '2024', category: 'Enterprise', type: 'web',
     description: 'Enterprise resource planning and management platform.',
+    summary: 'An enterprise-grade digital transformation and resource planning platform engineered for scalable business growth. State Technologies delivers a unified dashboard for managing operations, boosting efficiency, and driving innovation across modern enterprise workflows.',
     emoji: '🏢', visualTitle: 'State Technologies', visualSub: 'Enterprise Software', image: '/projects/state_1.png', images: ['/projects/state_1.png', '/projects/state_2.png', '/projects/state_3.png', '/projects/state_4.png', '/projects/state_5.png'],
     tech: ['Angular', '.NET Core'],
     metrics: { 'Clients': '500+' },
-    links: [],
+    links: [{ url: 'https://statetechnologies.ai/', label: 'AI Site' }, { url: 'https://stat-technologies.com/', label: 'Corporate Site' }],
     accent: '#0284C7'
   },
   {
     id: 3, title: 'Beg Event Group', year: '2024', category: 'Events', type: 'both',
     description: 'Comprehensive event management and planning platform.',
-    emoji: '🎉', visualTitle: 'Beg Event Group', visualSub: 'Event Management',
+    summary: 'A premier event management and production platform designed for high-energy entertainment and seamless event execution. Beg Event Group streamlines vendor coordination, attendee management, and entertainment booking for large-scale events and weddings across the region.',
+    emoji: '🎉', visualTitle: 'Beg Event Group', visualSub: 'Event Management', image: '/projects/beg_1.png', images: ['/projects/beg_1.png', '/projects/beg_2.png', '/projects/beg_3.png', '/projects/beg_4.png', '/projects/beg_5.png', '/projects/beg_6.png'],
     tech: ['React', 'Firebase'],
     metrics: { 'Events': '1K+' },
-    links: [],
+    links: [{ url: 'https://begeventgroup.com/', label: 'Live Site' }],
     accent: '#4F46E5'
   },
   {
     id: 4, title: 'Robert Andrew Salone', year: '2024', category: 'Booking', type: 'web',
     description: 'Streamlined salon booking and management system.',
-    emoji: '💇', visualTitle: 'Robert Andrew Salone', visualSub: 'Salon Booking',
+    summary: 'A highly optimized, enterprise-level salon booking and customer relationship management system. The platform provides a complete solution for scheduling appointments, managing staff calendars, and maintaining detailed client histories for a premium salon experience.',
+    emoji: '💇', visualTitle: 'Robert Andrew Salone', visualSub: 'Salon Booking', image: '/projects/robert_1.png', images: ['/projects/robert_1.png', '/projects/robert_2.png', '/projects/robert_3.png', '/projects/robert_4.png', '/projects/robert_5.png'],
     tech: ['React', 'Node.js'],
     metrics: { 'Bookings': '5K+' },
-    links: [],
+    links: [{ url: 'https://www.robertandrew.com/', label: 'Live Site' }],
     accent: '#059669'
   },
   {
     id: 5, title: 'Rx Intelligence', year: '2024', category: 'Health Tech', type: 'web',
     description: 'Intelligent healthcare analytics platform.',
+    summary: 'A data-driven healthcare analytics platform providing specialized research services for pharmaceutical product managers. Rx Intelligence leverages advanced data modeling to help institutions make informed, data-driven decisions and improve overall care quality.',
     emoji: '🧠', visualTitle: 'Rx Intelligence', visualSub: 'Healthcare Analytics', image: '/projects/rx_intel_1.png', images: ['/projects/rx_intel_1.png', '/projects/rx_intel_2.png', '/projects/rx_intel_3.png'],
     tech: ['React', 'Python'],
     metrics: { 'Data': '1M+' },
-    links: [],
+    links: [{ url: 'https://rxintelligence.at/', label: 'Live Site' }],
     accent: '#475569'
   },
   {
     id: 6, title: 'Nuvol Animal', year: '2024', category: 'Veterinary', type: 'web',
     description: 'Veterinary clinic management and tracking system.',
-    emoji: '🐾', visualTitle: 'Nuvol Animal', visualSub: 'Veterinary Management',
+    summary: 'A dedicated veterinary clinic management platform built to modernize pet healthcare operations. Nuvol Animal streamlines appointment scheduling, medical record tracking, and comprehensive treatment histories to ensure optimal care for animal patients.',
+    emoji: '🐾', visualTitle: 'Nuvol Animal', visualSub: 'Veterinary Management', image: '/projects/nuvol_1.png', images: ['/projects/nuvol_1.png', '/projects/nuvol_2.png', '/projects/nuvol_3.png', '/projects/nuvol_4.png'],
     tech: ['React', 'MongoDB'],
     metrics: { 'Pets': '10K+' },
-    links: [],
+    links: [{ url: 'https://www.nuvolanimalhealth.co.in/', label: 'Live Site' }],
     accent: '#E11D48'
   },
   {
     id: 7, title: 'Tsg Weddings', year: '2024', category: 'Events', type: 'web',
     description: 'Complete wedding planning and vendor management platform.',
+    summary: 'An all-in-one digital wedding planning and production platform that connects couples with premium vendors. TSG Weddings provides a complete solution for managing event timelines, entertainment coordination, and seamless wedding day execution.',
     emoji: '💍', visualTitle: 'Tsg Weddings', visualSub: 'Wedding Planning', image: '/projects/tsg_weddings.png', images: ['/projects/tsg_weddings.png', '/projects/tsg_2.png', '/projects/tsg_3.png', '/projects/tsg_4.png'],
     tech: ['Next.js', 'Stripe'],
     metrics: { 'Weddings': '500+' },
-    links: [],
+    links: [{ url: 'https://tsgweddings.com/', label: 'Live Site' }],
     accent: '#0284C7'
   },
   {
     id: 8, title: 'Varical Space Magezine', year: '2024', category: 'Publishing', type: 'web',
     description: 'Digital publishing platform for space enthusiasts.',
+    summary: 'A modern digital publishing and content management platform dedicated to space exploration and technology. Vertical Space Magazine features rich multimedia articles, subscription services, and an optimized editorial workflow for high-quality journalism.',
     emoji: '🚀', visualTitle: 'Varical Space Magezine', visualSub: 'Digital Magazine', image: '/projects/vertical_space.png', images: ['/projects/vertical_5.png', '/projects/vertical_6.png', '/projects/vertical_7.png', '/projects/vertical_8.png'],
     tech: ['React', 'CMS'],
     metrics: { 'Readers': '50K+' },
-    links: [],
+    links: [{ url: 'https://verticalspace.ai/', label: 'Live Site' }],
     accent: '#059669'
   }
 ];

@@ -63,7 +63,7 @@ function ContentSide({ project }) {
           <span className="text-xs text-[#64748B] font-mono-custom">{project.year}</span>
         </div>
         <h3 className="text-2xl md:text-3xl font-bold text-[#111827]">{project.title}</h3>
-        <p className="text-[#475569] text-sm mt-2">{project.description}</p>
+        <p className="text-[#475569] text-sm mt-2">{project.summary || project.description}</p>
         <div className="flex flex-wrap gap-2 mt-4">
           {project.tech.map((t, i) => (
             <span key={i} className="tech-tag">{t}</span>

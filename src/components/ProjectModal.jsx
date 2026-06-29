@@ -38,7 +38,7 @@ export default function ProjectModal({ projectId, isOpen, onClose, onOpenVoice }
           <div className="project-modal-details">
             <div className="project-modal-badge">{p.category}</div>
             <div className="project-modal-title">{p.title}</div>
-            <div className="project-modal-desc">{p.description}</div>
+            <div className="project-modal-desc">{p.summary || p.description}</div>
             <div className="project-modal-tags">
               {p.tech.map((t, i) => (
                 <span key={i} className="tech-tag">{t}</span>

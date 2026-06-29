@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { REGION } from '../data/config';
 
 export default function ContactModal({ isOpen, onClose }) {
   const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormState((prev) => ({ ...prev, [e.target.id.replace('form', '').toLowerCase()]: e.target.value }));
@@ -17,7 +20,31 @@ export default function ContactModal({ isOpen, onClose }) {
       setTimeout(() => setError(''), 2000);
       return;
     }
-    setSubmitted(true);
+    
+    setLoading(true);
+    
+    // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS Public Key
+    emailjs.send(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
+      {
+        name: name,
+        email: email,
+        subject: subject,
+        message: message,
+      },
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY 
+    )
+    .then((result) => {
+        console.log(result.text);
+        setSubmitted(true);
+        setLoading(false);
+    }, (error) => {
+        console.log(error.text);
+        setError('Failed to send message. Please try again.');
+        setLoading(false);
+        setTimeout(() => setError(''), 3000);
+    });
   };
 
   if (!isOpen) return null;
@@ -51,7 +78,24 @@ export default function ContactModal({ isOpen, onClose }) {
                    <div className="modal-info-icon"><i className="fa-solid fa-envelope"></i></div>
                   <div>
                     <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide">Email</p>
-                    <p className="text-sm font-medium text-[#111827]"><a href="mailto:hi@umeshpatel.com" className="hover:text-[var(--accent-1)] transition-colors">hi@umeshpatel.com</a></p>
+                    <p className="text-sm font-medium text-[#111827]"><a href="mailto:umeshmca.kadi@gmail.com" className="hover:text-[var(--accent-1)] transition-colors">umeshmca.kadi@gmail.com</a></p>
+                  </div>
+                </div>
+                <div className="modal-info-item">
+                   <div className="modal-info-icon"><i className="fa-solid fa-phone"></i></div>
+                  <div>
+                    <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide">Phone</p>
+                    <p className="text-sm font-medium text-[#111827] mt-1">
+                      {REGION === 'canada' ? (
+                        <a href={`tel:${import.meta.env.VITE_PHONE_CANADA?.replace(/\D/g, '')}`} className="hover:text-[var(--accent-1)] transition-colors">
+                          <span className="text-[#64748B] mr-2">🇨🇦</span>{import.meta.env.VITE_PHONE_CANADA}
+                        </a>
+                      ) : (
+                        <a href={`tel:${import.meta.env.VITE_PHONE_INDIA?.replace(/\D/g, '')}`} className="hover:text-[var(--accent-1)] transition-colors">
+                          <span className="text-[#64748B] mr-2">🇮🇳</span>{import.meta.env.VITE_PHONE_INDIA}
+                        </a>
+                      )}
+                    </p>
                   </div>
                 </div>
                 <div className="modal-info-item">
@@ -111,10 +155,11 @@ export default function ContactModal({ isOpen, onClose }) {
                   <button
                     type="submit"
                     className="form-submit"
+                    disabled={loading}
                     style={error ? { background: 'linear-gradient(135deg, #dc2626, #b91c1c)' } : {}}
                   >
-                    <span>{error || 'Send Message'}</span>
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <span>{error || (loading ? 'Sending...' : 'Send Message')}</span>
+                    {loading ? <i className="fa-solid fa-spinner fa-spin"></i> : <i className="fa-solid fa-arrow-right"></i>}
                   </button>
                 </form>
               </>
