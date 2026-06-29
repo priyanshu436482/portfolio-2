@@ -14,13 +14,13 @@ export default function Experience() {
           </p>
         </div>
         
-        <div className="space-y-6 md:space-y-8 relative">
+        <div className="space-y-6 md:space-y-8 relative" style={{ overflow: 'visible' }}>
           {experienceData.map((exp, i) => (
             <div
               key={i}
-              className="reveal relative max-w-3xl mx-auto z-10"
+              className="reveal relative max-w-3xl mx-auto"
             >
-              <div className="bg-white border border-[#0f172a08] rounded-2xl p-6 md:p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5 hover:border-[rgba(255,160,0,0.2)] cursor-pointer relative z-10">
+              <div className="bg-white border border-[#0f172a08] rounded-2xl p-6 md:p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5 hover:border-[rgba(255,160,0,0.2)] cursor-pointer relative z-20">
                 <span className="text-sm font-bold text-[#FFA000] font-mono-custom mb-2 block">{exp.period}</span>
                 <h3 className="font-bold text-xl md:text-2xl text-[#111827]">{exp.title}</h3>
                 <p className="text-[#475569] mt-1 mb-4 text-sm md:text-base">
