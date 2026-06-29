@@ -218,12 +218,17 @@ const experienceDataCanada = [
     company: 'Nexuron Technologies',
     type: 'Full-time',
     duration: '11 mos',
-    location: 'Kadi, Gujarat, India · Remote',
+    location: 'Toronto, Ontario, Canada · Remote',
     desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end-to-end project lifecycles, from requirement gathering to delivery, ensuring high-quality solutions.',
     skills: ['React', 'Node.js', 'Laravel', 'Vue.js', 'and 11 additional skills'],
     align: 'right'
   },
-  ...commonExperienceData
+  ...commonExperienceData.map(exp => ({
+    ...exp,
+    location: exp.location
+      .replace('Ahmedabad, Gujarat, India', 'Toronto, Ontario, Canada')
+      .replace('Greater Ahmedabad Area', 'Greater Toronto Area, Canada')
+  }))
 ];
 
 export const experienceData = REGION === 'canada' ? experienceDataCanada : experienceDataIndia;
