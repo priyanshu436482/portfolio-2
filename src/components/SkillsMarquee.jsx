@@ -1,6 +1,7 @@
 import { techMarqueeItems } from '../data/projectsData';
 
 export default function SkillsMarquee() {
+  // Renders a horizontal scrolling marquee of skills/technologies
   return (
     <section className="py-12 md:py-16 overflow-hidden bg-[var(--bg-primary)]" aria-label="Technologies">
       <div className="overflow-hidden">
