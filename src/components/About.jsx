@@ -1,7 +1,7 @@
 import { useCounter } from '../hooks/useCounter';
 import { useState, useEffect } from 'react';
 import { REGION } from '../data/config';
-import amazonwebservices_original_wordmark_logo from '../assets/logo/amazonwebservices-original-wordmark.svg';
+import aws_logo from '../assets/logo/amazonaws.svg';
 import angular_original_logo from '../assets/logo/angular-original.svg';
 import docker_original_logo from '../assets/logo/docker-original.svg';
 import dotnetcore_original_logo from '../assets/logo/dotnetcore-original.svg';
@@ -134,7 +134,7 @@ export default function About() {
                 { name: 'Laravel', imgUrl: laravel_original_logo },
                 { name: 'WordPress', imgUrl: wordpress_plain_logo },
                 { name: 'Flutter', imgUrl: flutter_original_logo },
-                { name: 'AWS / Cloud', imgUrl: amazonwebservices_original_wordmark_logo },
+                { name: 'AWS / Cloud', imgUrl: aws_logo },
                 { name: 'Docker', imgUrl: docker_original_logo },
                 { name: 'AI Integrations', icon: 'fa-solid fa-brain', color: 'text-[#a855f7]' }
               ].map((tech) => (

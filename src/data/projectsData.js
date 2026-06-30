@@ -1,5 +1,5 @@
 import { REGION } from './config';
-import amazonwebservices_original_wordmark_logo from '../assets/logo/amazonwebservices-original-wordmark.svg';
+import aws_logo from '../assets/logo/amazonaws.svg';
 import angular_original_logo from '../assets/logo/angular-original.svg';
 import azure_original_logo from '../assets/logo/azure-original.svg';
 import azuresqldatabase_original_logo from '../assets/logo/azuresqldatabase-original.svg';
@@ -156,7 +156,7 @@ export const techMarqueeItems = [
   { imgUrl: mongodb_original_logo, label: 'MongoDB' },
   { imgUrl: flutter_original_logo, label: 'Flutter' },
   { imgUrl: azure_original_logo, label: 'Azure' },
-  { imgUrl: amazonwebservices_original_wordmark_logo, label: 'AWS' },
+  { imgUrl: aws_logo, label: 'AWS' },
   { imgUrl: docker_original_logo, label: 'Docker' },
   { icon: 'fa-solid fa-brain', color: 'text-purple-500', label: 'AI / LLM' },
   { imgUrl: python_original_logo, label: 'Python' },
