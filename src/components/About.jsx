@@ -1,6 +1,18 @@
 import { useCounter } from '../hooks/useCounter';
 import { useState, useEffect } from 'react';
 import { REGION } from '../data/config';
+import amazonwebservices_original_wordmark_logo from '../assets/logo/amazonwebservices-original-wordmark.svg';
+import angular_original_logo from '../assets/logo/angular-original.svg';
+import docker_original_logo from '../assets/logo/docker-original.svg';
+import dotnetcore_original_logo from '../assets/logo/dotnetcore-original.svg';
+import flutter_original_logo from '../assets/logo/flutter-original.svg';
+import laravel_original_logo from '../assets/logo/laravel-original.svg';
+import nodejs_original_logo from '../assets/logo/nodejs-original.svg';
+import php_original_logo from '../assets/logo/php-original.svg';
+import python_original_logo from '../assets/logo/python-original.svg';
+import react_original_logo from '../assets/logo/react-original.svg';
+import vuejs_original_logo from '../assets/logo/vuejs-original.svg';
+import wordpress_plain_logo from '../assets/logo/wordpress-plain.svg';
 
 function Metric({ target, label }) {
   const [count, ref] = useCounter(target);
@@ -112,18 +124,18 @@ export default function About() {
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {[
-                { name: 'Next.js / React', imgUrl: '/tech-logos/react-original.svg' },
-                { name: 'Angular', imgUrl: '/tech-logos/angular-original.svg' },
-                { name: 'Vue.js', imgUrl: '/tech-logos/vuejs-original.svg' },
-                { name: '.NET Core', imgUrl: '/tech-logos/dotnetcore-original.svg' },
-                { name: 'Node.js', imgUrl: '/tech-logos/nodejs-original.svg' },
-                { name: 'Python', imgUrl: '/tech-logos/python-original.svg' },
-                { name: 'PHP', imgUrl: '/tech-logos/php-original.svg' },
-                { name: 'Laravel', imgUrl: '/tech-logos/laravel-original.svg' },
-                { name: 'WordPress', imgUrl: '/tech-logos/wordpress-plain.svg' },
-                { name: 'Flutter', imgUrl: '/tech-logos/flutter-original.svg' },
-                { name: 'AWS / Cloud', imgUrl: '/tech-logos/amazonwebservices-original-wordmark.svg' },
-                { name: 'Docker', imgUrl: '/tech-logos/docker-original.svg' },
+                { name: 'Next.js / React', imgUrl: react_original_logo },
+                { name: 'Angular', imgUrl: angular_original_logo },
+                { name: 'Vue.js', imgUrl: vuejs_original_logo },
+                { name: '.NET Core', imgUrl: dotnetcore_original_logo },
+                { name: 'Node.js', imgUrl: nodejs_original_logo },
+                { name: 'Python', imgUrl: python_original_logo },
+                { name: 'PHP', imgUrl: php_original_logo },
+                { name: 'Laravel', imgUrl: laravel_original_logo },
+                { name: 'WordPress', imgUrl: wordpress_plain_logo },
+                { name: 'Flutter', imgUrl: flutter_original_logo },
+                { name: 'AWS / Cloud', imgUrl: amazonwebservices_original_wordmark_logo },
+                { name: 'Docker', imgUrl: docker_original_logo },
                 { name: 'AI Integrations', icon: 'fa-solid fa-brain', color: 'text-[#a855f7]' }
               ].map((tech) => (
                 <div key={tech.name} className="flex items-center gap-2.5 p-3 bg-[#FAF9F5] border border-[#0f172a08] rounded-lg">

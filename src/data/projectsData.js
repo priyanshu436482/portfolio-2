@@ -1,4 +1,23 @@
 import { REGION } from './config';
+import amazonwebservices_original_wordmark_logo from '../assets/logo/amazonwebservices-original-wordmark.svg';
+import angular_original_logo from '../assets/logo/angular-original.svg';
+import azure_original_logo from '../assets/logo/azure-original.svg';
+import azuresqldatabase_original_logo from '../assets/logo/azuresqldatabase-original.svg';
+import docker_original_logo from '../assets/logo/docker-original.svg';
+import dotnetcore_original_logo from '../assets/logo/dotnetcore-original.svg';
+import figma_original_logo from '../assets/logo/figma-original.svg';
+import flutter_original_logo from '../assets/logo/flutter-original.svg';
+import html5_original_logo from '../assets/logo/html5-original.svg';
+import javascript_original_logo from '../assets/logo/javascript-original.svg';
+import laravel_original_logo from '../assets/logo/laravel-original.svg';
+import mongodb_original_logo from '../assets/logo/mongodb-original.svg';
+import nodejs_original_logo from '../assets/logo/nodejs-original.svg';
+import php_original_logo from '../assets/logo/php-original.svg';
+import postgresql_original_logo from '../assets/logo/postgresql-original.svg';
+import python_original_logo from '../assets/logo/python-original.svg';
+import react_original_logo from '../assets/logo/react-original.svg';
+import vuejs_original_logo from '../assets/logo/vuejs-original.svg';
+import wordpress_plain_logo from '../assets/logo/wordpress-plain.svg';
 
 export const projectsData = [
   {
@@ -127,26 +146,26 @@ export const skillsData = [
 ];
 
 export const techMarqueeItems = [
-  { imgUrl: '/tech-logos/react-original.svg', label: 'React' },
-  { imgUrl: '/tech-logos/angular-original.svg', label: 'Angular' },
-  { imgUrl: '/tech-logos/vuejs-original.svg', label: 'Vue.js' },
-  { imgUrl: '/tech-logos/dotnetcore-original.svg', label: '.NET Core' },
-  { imgUrl: '/tech-logos/nodejs-original.svg', label: 'Node.js' },
-  { imgUrl: '/tech-logos/postgresql-original.svg', label: 'PostgreSQL' },
-  { imgUrl: '/tech-logos/azuresqldatabase-original.svg', label: 'SQL Server' },
-  { imgUrl: '/tech-logos/mongodb-original.svg', label: 'MongoDB' },
-  { imgUrl: '/tech-logos/flutter-original.svg', label: 'Flutter' },
-  { imgUrl: '/tech-logos/azure-original.svg', label: 'Azure' },
-  { imgUrl: '/tech-logos/amazonwebservices-original-wordmark.svg', label: 'AWS' },
-  { imgUrl: '/tech-logos/docker-original.svg', label: 'Docker' },
+  { imgUrl: react_original_logo, label: 'React' },
+  { imgUrl: angular_original_logo, label: 'Angular' },
+  { imgUrl: vuejs_original_logo, label: 'Vue.js' },
+  { imgUrl: dotnetcore_original_logo, label: '.NET Core' },
+  { imgUrl: nodejs_original_logo, label: 'Node.js' },
+  { imgUrl: postgresql_original_logo, label: 'PostgreSQL' },
+  { imgUrl: azuresqldatabase_original_logo, label: 'SQL Server' },
+  { imgUrl: mongodb_original_logo, label: 'MongoDB' },
+  { imgUrl: flutter_original_logo, label: 'Flutter' },
+  { imgUrl: azure_original_logo, label: 'Azure' },
+  { imgUrl: amazonwebservices_original_wordmark_logo, label: 'AWS' },
+  { imgUrl: docker_original_logo, label: 'Docker' },
   { icon: 'fa-solid fa-brain', color: 'text-purple-500', label: 'AI / LLM' },
-  { imgUrl: '/tech-logos/python-original.svg', label: 'Python' },
-  { imgUrl: '/tech-logos/php-original.svg', label: 'PHP' },
-  { imgUrl: '/tech-logos/laravel-original.svg', label: 'Laravel' },
-  { imgUrl: '/tech-logos/wordpress-plain.svg', label: 'WordPress' },
-  { imgUrl: '/tech-logos/javascript-original.svg', label: 'JavaScript' },
-  { imgUrl: '/tech-logos/html5-original.svg', label: 'HTML/CSS' },
-  { imgUrl: '/tech-logos/figma-original.svg', label: 'Figma' },
+  { imgUrl: python_original_logo, label: 'Python' },
+  { imgUrl: php_original_logo, label: 'PHP' },
+  { imgUrl: laravel_original_logo, label: 'Laravel' },
+  { imgUrl: wordpress_plain_logo, label: 'WordPress' },
+  { imgUrl: javascript_original_logo, label: 'JavaScript' },
+  { imgUrl: html5_original_logo, label: 'HTML/CSS' },
+  { imgUrl: figma_original_logo, label: 'Figma' },
 ];
 
 const commonExperienceData = [
