@@ -87,9 +87,14 @@ export default function BookingModal({ isOpen, onClose }) {
     setFormError('');
     setMode('form');
     setVoicePhase('idle');
-
+    if (vapiRef.current) {
+      vapiRef.current.stop();
+      vapiRef.current = null;
+    }
     setTranscriptWords([]);
   };
+
+  const vapiRef = useRef(null);
 
   const switchMode = (newMode) => {
     if (newMode === mode) return;
@@ -97,67 +102,52 @@ export default function BookingModal({ isOpen, onClose }) {
     if (newMode === 'voice') {
       startVoiceBooking();
     } else {
+      if (vapiRef.current) {
+        vapiRef.current.stop();
+        vapiRef.current = null;
+      }
       setVoicePhase('idle');
-
       setTranscriptWords([]);
-      clearTimeout(voiceTimerRef.current);
-      clearInterval(voiceWordTimerRef.current);
     }
   };
 
-  const startVoiceBooking = () => {
-    setVoicePhase('listening');
-
+  const startVoiceBooking = async () => {
+    setVoicePhase('connecting');
     setTranscriptWords([]);
+    
+    try {
+      // Import dynamically to avoid SSR issues if any, or just use top-level import
+      const Vapi = (await import('@vapi-ai/web')).default;
+      const VapiClient = Vapi.default || Vapi;
+      const vapiInstance = new VapiClient(import.meta.env.VITE_VAPI_PUBLIC_KEY);
+      vapiRef.current = vapiInstance;
 
-    let pIdx = 0;
+      vapiInstance.on('call-start', () => {
+        setVoicePhase('listening');
+      });
 
-    const advancePhrase = () => {
-      if (pIdx >= VOICE_BOOKING_PHRASES.length) {
-        const firstAvail = days.find((d) => d?.isAvailable);
-        if (firstAvail) setSelectedDate(firstAvail);
-        const firstTime = { label: TIME_SLOTS.find((_, i) => !getTimeSlotStatus(i).isBooked) || TIME_SLOTS[0], isBooked: false };
-        setSelectedTime(firstTime);
-        setForm({ name: 'Alex Johnson', email: 'alex@example.com', message: '' });
-        setVoicePhase('confirming');
-        setTimeout(() => {
-          setConfirmed(true);
-          setVoicePhase('done');
-        }, 1800);
-        return;
-      }
+      vapiInstance.on('call-end', () => {
+        setVoicePhase('idle');
+      });
 
+      vapiInstance.on('error', (e) => {
+        console.error('Vapi Error:', e);
+        setVoicePhase('idle');
+      });
 
-      const words = VOICE_BOOKING_PHRASES[pIdx].split(' ');
-      setTranscriptWords([]);
-      let wIdx = 0;
-      clearInterval(voiceWordTimerRef.current);
-      voiceWordTimerRef.current = setInterval(() => {
-        if (wIdx < words.length) {
-          setTranscriptWords((prev) => [...prev, words[wIdx]]);
-          wIdx++;
-        } else {
-          clearInterval(voiceWordTimerRef.current);
-
-          if (pIdx === 2) {
-            const firstAvail = days.find((d) => d?.isAvailable);
-            if (firstAvail) setSelectedDate(firstAvail);
-          }
-          if (pIdx === 4) {
-            const firstTime = { label: TIME_SLOTS.find((_, i) => !getTimeSlotStatus(i).isBooked) || TIME_SLOTS[0], isBooked: false };
-            setSelectedTime(firstTime);
-          }
-          if (pIdx === 7) {
-            setForm({ name: 'Alex Johnson', email: 'alex@example.com', message: '' });
-          }
-
-          pIdx++;
-          voiceTimerRef.current = setTimeout(advancePhrase, 900);
+      vapiInstance.on('message', (msg) => {
+        if (msg.type === 'transcript' && msg.role === 'assistant') {
+          setTranscriptWords(msg.transcript.split(' '));
         }
-      }, 55);
-    };
+      });
 
-    voiceTimerRef.current = setTimeout(advancePhrase, 800);
+      await vapiInstance.start(import.meta.env.VITE_VAPI_ASSISTANT_ID, {
+        firstMessage: "Hello! I am Umesh's AI assistant. Are you looking to book a 30-minute discovery call?"
+      });
+    } catch (err) {
+      console.error('Failed to start Vapi call:', err);
+      setVoicePhase('idle');
+    }
   };
 
   const handlePrevMonth = () => {
