@@ -1,4 +1,5 @@
 import { useState, useMemo, useRef } from 'react';
+import Vapi from '@vapi-ai/web';
 
 const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -116,8 +117,6 @@ export default function BookingModal({ isOpen, onClose }) {
     setTranscriptWords([]);
     
     try {
-      // Import dynamically to avoid SSR issues if any, or just use top-level import
-      const Vapi = (await import('@vapi-ai/web')).default;
       const VapiClient = Vapi.default || Vapi;
       const vapiInstance = new VapiClient(import.meta.env.VITE_VAPI_PUBLIC_KEY);
       vapiRef.current = vapiInstance;

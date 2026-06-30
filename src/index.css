@@ -753,7 +753,7 @@ body {
   border-radius: 24px 0 0 24px;
   display: flex; flex-direction: column; justify-content: space-between;
 }
-@media (max-width: 767px) { .booking-modal-info { border-radius: 24px 24px 0 0; } }
+@media (max-width: 767px) { .booking-modal-info { display: none; } }
 
 .booking-modal-badge {
   display: inline-flex; align-items: center; gap: 0.5rem;
@@ -781,6 +781,7 @@ body {
   flex-shrink: 0;
   border: 1px solid rgba(15, 23, 42, 0.04);
 }
+@media (max-width: 767px) { .booking-mode-toggle { margin-right: 0; } }
 .booking-mode-btn {
   flex: 1;
   display: inline-flex;
