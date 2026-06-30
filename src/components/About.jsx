@@ -112,18 +112,18 @@ export default function About() {
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {[
-                { name: 'Next.js / React', imgUrl: '/icons/react-original.svg' },
-                { name: 'Angular', imgUrl: '/icons/angular-original.svg' },
-                { name: 'Vue.js', imgUrl: '/icons/vuejs-original.svg' },
-                { name: '.NET Core', imgUrl: '/icons/dotnetcore-original.svg' },
-                { name: 'Node.js', imgUrl: '/icons/nodejs-original.svg' },
-                { name: 'Python', imgUrl: '/icons/python-original.svg' },
-                { name: 'PHP', imgUrl: '/icons/php-original.svg' },
-                { name: 'Laravel', imgUrl: '/icons/laravel-original.svg' },
-                { name: 'WordPress', imgUrl: '/icons/wordpress-plain.svg' },
-                { name: 'Flutter', imgUrl: '/icons/flutter-original.svg' },
-                { name: 'AWS / Cloud', imgUrl: '/icons/amazonwebservices-original-wordmark.svg' },
-                { name: 'Docker', imgUrl: '/icons/docker-original.svg' },
+                { name: 'Next.js / React', imgUrl: '/tech-logos/react-original.svg' },
+                { name: 'Angular', imgUrl: '/tech-logos/angular-original.svg' },
+                { name: 'Vue.js', imgUrl: '/tech-logos/vuejs-original.svg' },
+                { name: '.NET Core', imgUrl: '/tech-logos/dotnetcore-original.svg' },
+                { name: 'Node.js', imgUrl: '/tech-logos/nodejs-original.svg' },
+                { name: 'Python', imgUrl: '/tech-logos/python-original.svg' },
+                { name: 'PHP', imgUrl: '/tech-logos/php-original.svg' },
+                { name: 'Laravel', imgUrl: '/tech-logos/laravel-original.svg' },
+                { name: 'WordPress', imgUrl: '/tech-logos/wordpress-plain.svg' },
+                { name: 'Flutter', imgUrl: '/tech-logos/flutter-original.svg' },
+                { name: 'AWS / Cloud', imgUrl: '/tech-logos/amazonwebservices-original-wordmark.svg' },
+                { name: 'Docker', imgUrl: '/tech-logos/docker-original.svg' },
                 { name: 'AI Integrations', icon: 'fa-solid fa-brain', color: 'text-[#a855f7]' }
               ].map((tech) => (
                 <div key={tech.name} className="flex items-center gap-2.5 p-3 bg-[#FAF9F5] border border-[#0f172a08] rounded-lg">
