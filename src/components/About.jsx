@@ -1,5 +1,6 @@
 import { useCounter } from '../hooks/useCounter';
 import { useState, useEffect } from 'react';
+import { REGION } from '../data/config';
 
 function Metric({ target, label }) {
   const [count, ref] = useCounter(target);
@@ -27,7 +28,7 @@ function LiveClock() {
   useEffect(() => {
     const updateTime = () => {
       const options = {
-        timeZone: 'Asia/Kolkata',
+        timeZone: REGION === 'canada' ? 'America/Toronto' : 'Asia/Kolkata',
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
@@ -82,14 +83,14 @@ export default function About() {
           <div className="glass-card bento-card p-6 md:p-8 flex flex-col justify-between hover:border-[rgba(255,160,0,0.2)] transition-colors duration-300 reveal">
             <div>
               <span className="badge mb-4"><i className="fa-solid fa-earth-americas text-xs"></i> Location</span>
-              <h3 className="text-lg font-bold text-[#111827] mb-2">India</h3>
+              <h3 className="text-lg font-bold text-[#111827] mb-2">{REGION === 'canada' ? (import.meta.env.VITE_LOCATION_CANADA || 'Canada') : (import.meta.env.VITE_LOCATION_INDIA || 'India')}</h3>
               <p className="text-xs text-[#64748B] mb-4">Working globally with remote teams.</p>
             </div>
             <div className="bg-[#FAF9F5] border border-[#0f172a08] rounded-xl p-4 text-center">
               <span className="status-ring mb-1"></span>
               <span className="text-xs font-bold text-[#2fa84f] uppercase tracking-wider block mb-2">Available for Work</span>
               <LiveClock />
-              <span className="text-[10px] text-[#8b8b8b] block mt-1 font-mono-custom">IST (India)</span>
+              <span className="text-[10px] text-[#8b8b8b] block mt-1 font-mono-custom">{REGION === 'canada' ? 'EST (Canada)' : 'IST (India)'}</span>
             </div>
           </div>
 
