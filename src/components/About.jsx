@@ -4,13 +4,6 @@ import { REGION } from '../data/config';
 
 function Metric({ target, label }) {
   const [count, ref] = useCounter(target);
-  const [counted, setCounted] = useState(false);
-
-  useEffect(() => {
-    if (count === target && target > 0) {
-      setCounted(true);
-    }
-  }, [count, target]);
 
   return (
     <div className="flex flex-col items-center justify-center p-4 bg-[#FAF9F5] border border-[#0f172a08] rounded-xl hover:shadow-sm transition-all duration-300">
@@ -22,13 +15,13 @@ function Metric({ target, label }) {
   );
 }
 
-function LiveClock() {
+function LiveClock({ timeZone, timeZoneLabel }) {
   const [time, setTime] = useState('');
 
   useEffect(() => {
     const updateTime = () => {
       const options = {
-        timeZone: REGION === 'canada' ? 'America/Toronto' : 'Asia/Kolkata',
+        timeZone: timeZone,
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
@@ -40,12 +33,15 @@ function LiveClock() {
     updateTime();
     const interval = setInterval(updateTime, 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [timeZone]);
 
   return (
-    <div className="font-mono-custom text-xl font-bold tracking-widest text-[var(--accent-1)]">
-      {time || '12:00:00 PM'}
-    </div>
+    <>
+      <div className="font-mono-custom text-xl font-bold tracking-widest text-[var(--accent-1)]">
+        {time || '12:00:00 PM'}
+      </div>
+      <span className="text-[10px] text-[#8b8b8b] block mt-1 font-mono-custom">{timeZoneLabel}</span>
+    </>
   );
 }
 
@@ -79,20 +75,33 @@ export default function About() {
             </div>
           </div>
 
-          {/* Timezone / Live Clock Card */}
-          <div className="glass-card bento-card p-6 md:p-8 flex flex-col justify-between hover:border-[rgba(255,160,0,0.2)] transition-colors duration-300 reveal">
-            <div>
-              <span className="badge mb-4"><i className="fa-solid fa-earth-americas text-xs"></i> Location</span>
-              <h3 className="text-lg font-bold text-[#111827] mb-2">{REGION === 'canada' ? (import.meta.env.VITE_LOCATION_CANADA || 'Canada') : (import.meta.env.VITE_LOCATION_INDIA || 'India')}</h3>
-              <p className="text-xs text-[#64748B] mb-4">Working globally with remote teams.</p>
+          {REGION === 'canada' ? (
+            <div className="glass-card bento-card p-6 md:p-8 flex flex-col justify-between hover:border-[rgba(255,160,0,0.2)] transition-colors duration-300 reveal">
+              <div>
+                <span className="badge mb-4"><i className="fa-solid fa-flag text-xs"></i> Canada</span>
+                <h3 className="text-lg font-bold text-[#111827] mb-2">{import.meta.env.VITE_LOCATION_CANADA || 'Canada'}</h3>
+                <p className="text-xs text-[#64748B] mb-4">EST Timezone</p>
+              </div>
+              <div className="bg-[#FAF9F5] border border-[#0f172a08] rounded-xl p-4 text-center">
+                <span className="status-ring mb-1"></span>
+                <span className="text-xs font-bold text-[#2fa84f] uppercase tracking-wider block mb-2">Available for Work</span>
+                <LiveClock timeZone="America/Toronto" timeZoneLabel="EST (Canada)" />
+              </div>
             </div>
-            <div className="bg-[#FAF9F5] border border-[#0f172a08] rounded-xl p-4 text-center">
-              <span className="status-ring mb-1"></span>
-              <span className="text-xs font-bold text-[#2fa84f] uppercase tracking-wider block mb-2">Available for Work</span>
-              <LiveClock />
-              <span className="text-[10px] text-[#8b8b8b] block mt-1 font-mono-custom">{REGION === 'canada' ? 'EST (Canada)' : 'IST (India)'}</span>
+          ) : (
+            <div className="glass-card bento-card p-6 md:p-8 flex flex-col justify-between hover:border-[rgba(255,160,0,0.2)] transition-colors duration-300 reveal">
+              <div>
+                <span className="badge mb-4"><i className="fa-solid fa-flag text-xs"></i> India</span>
+                <h3 className="text-lg font-bold text-[#111827] mb-2">{import.meta.env.VITE_LOCATION_INDIA || 'India'}</h3>
+                <p className="text-xs text-[#64748B] mb-4">IST Timezone</p>
+              </div>
+              <div className="bg-[#FAF9F5] border border-[#0f172a08] rounded-xl p-4 text-center">
+                <span className="status-ring mb-1"></span>
+                <span className="text-xs font-bold text-[#2fa84f] uppercase tracking-wider block mb-2">Available for Work</span>
+                <LiveClock timeZone="Asia/Kolkata" timeZoneLabel="IST (India)" />
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Tech Spotlight Bento Card */}
           <div className="glass-card bento-card bento-col-2 p-6 md:p-8 hover:border-[rgba(255,160,0,0.2)] transition-colors duration-300 reveal">

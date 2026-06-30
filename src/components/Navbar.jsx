@@ -5,7 +5,6 @@ export default function Navbar({ onOpenModal, onOpenBooking }) {
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
-  const [scrollProgress, setScrollProgress] = useState(0);
   const location = useLocation();
   const isHome = location.pathname === '/';
 
@@ -23,11 +22,6 @@ export default function Navbar({ onOpenModal, onOpenBooking }) {
       setHidden(false);
     }
     setLastScroll(currentScroll);
-
-    // Scroll progress
-    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const progress = docHeight > 0 ? (currentScroll / docHeight) * 100 : 0;
-    setScrollProgress(Math.min(progress, 100));
   }, [lastScroll]);
 
   const isNavbarActive = scrolled || !isHome;

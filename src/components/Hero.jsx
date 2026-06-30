@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import heroImg from '../assets/hero.png';
 
 function SplitText({ text, baseDelay = 0, className = '' }) {
   return (

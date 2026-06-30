@@ -9,9 +9,6 @@ export default function VoiceModal({ project, isOpen, onClose }) {
   useEffect(() => {
     if (!isOpen || !project) return;
 
-    setPhase('connecting');
-    setTranscriptWords([]);
-
     const VapiClient = Vapi.default || Vapi;
     const vapiInstance = new VapiClient(import.meta.env.VITE_VAPI_PUBLIC_KEY);
     vapiRef.current = vapiInstance;

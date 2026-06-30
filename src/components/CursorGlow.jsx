@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function CursorGlow() {
   const glowRef = useRef(null);
@@ -9,33 +9,36 @@ export default function CursorGlow() {
   const targetRef = useRef({ x: 0, y: 0 });
   const rafRef = useRef(null);
   const isTouchRef = useRef(false);
-
-  const animate = useCallback(() => {
-    // Ring trailing (slower lerp)
-    ringPosRef.current.x += (targetRef.current.x - ringPosRef.current.x) * 0.12;
-    ringPosRef.current.y += (targetRef.current.y - ringPosRef.current.y) * 0.12;
-
-    // Dot responsive (faster lerp)
-    dotPosRef.current.x += (targetRef.current.x - dotPosRef.current.x) * 0.45;
-    dotPosRef.current.y += (targetRef.current.y - dotPosRef.current.y) * 0.45;
-
-    if (glowRef.current) {
-      glowRef.current.style.left = ringPosRef.current.x + 'px';
-      glowRef.current.style.top = ringPosRef.current.y + 'px';
-    }
-    if (ringRef.current) {
-      ringRef.current.style.left = ringPosRef.current.x + 'px';
-      ringRef.current.style.top = ringPosRef.current.y + 'px';
-    }
-    if (dotRef.current) {
-      dotRef.current.style.left = dotPosRef.current.x + 'px';
-      dotRef.current.style.top = dotPosRef.current.y + 'px';
-    }
-
-    rafRef.current = requestAnimationFrame(animate);
-  }, []);
+  const animateRef = useRef(null);
 
   useEffect(() => {
+    const animate = () => {
+      // Ring trailing (slower lerp)
+      ringPosRef.current.x += (targetRef.current.x - ringPosRef.current.x) * 0.12;
+      ringPosRef.current.y += (targetRef.current.y - ringPosRef.current.y) * 0.12;
+
+      // Dot responsive (faster lerp)
+      dotPosRef.current.x += (targetRef.current.x - dotPosRef.current.x) * 0.45;
+      dotPosRef.current.y += (targetRef.current.y - dotPosRef.current.y) * 0.45;
+
+      if (glowRef.current) {
+        glowRef.current.style.left = ringPosRef.current.x + 'px';
+        glowRef.current.style.top = ringPosRef.current.y + 'px';
+      }
+      if (ringRef.current) {
+        ringRef.current.style.left = ringPosRef.current.x + 'px';
+        ringRef.current.style.top = ringPosRef.current.y + 'px';
+      }
+      if (dotRef.current) {
+        dotRef.current.style.left = dotPosRef.current.x + 'px';
+        dotRef.current.style.top = dotPosRef.current.y + 'px';
+      }
+
+      rafRef.current = requestAnimationFrame(animate);
+    };
+
+    animateRef.current = animate;
+
     // Detect touch device
     const checkTouch = () => { isTouchRef.current = true; };
     window.addEventListener('touchstart', checkTouch, { once: true, passive: true });
@@ -85,7 +88,7 @@ export default function CursorGlow() {
     document.addEventListener('mouseout', onOut, { passive: true });
     document.addEventListener('mouseleave', onLeave);
 
-    rafRef.current = requestAnimationFrame(animate);
+    rafRef.current = requestAnimationFrame(animateRef.current);
 
     return () => {
       window.removeEventListener('mousemove', onMove);
@@ -95,7 +98,7 @@ export default function CursorGlow() {
       window.removeEventListener('touchstart', checkTouch);
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
-  }, [animate]);
+  }, []);
 
   // Don't render on small screens (likely touch)
   if (typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches) {

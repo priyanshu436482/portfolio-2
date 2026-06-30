@@ -46,7 +46,7 @@ function App() {
     if (lenisRef?.current) {
       lenisRef.current.scrollTo(0, { immediate: true });
     }
-  }, []);
+  }, [lenisRef, navigate]);
 
 
   useEffect(() => {
