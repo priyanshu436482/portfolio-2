@@ -6,18 +6,19 @@ export default function SkillsMarquee() {
       <div className="overflow-hidden">
         <div className="marquee-track no-select">
           {[...techMarqueeItems, ...techMarqueeItems].map((item, i) => (
-            <span key={i} className="px-6 md:px-12 py-4 inline-flex items-center justify-center transition-transform duration-300 hover:scale-110">
+            <span key={i} className="tech-tag text-sm !px-4 !py-2 inline-flex items-center gap-1.5 transition-transform duration-300 hover:scale-105">
               {item.imgUrl ? (
-                <img src={item.imgUrl} alt={item.label} title={item.label} className="w-12 h-12 md:w-16 md:h-16 object-contain drop-shadow-sm" />
+                <img src={item.imgUrl} alt={item.label} className="w-4 h-4 object-contain" />
               ) : item.icon ? (
                 item.icon.startsWith('<svg') ? (
-                  <span className={`w-12 h-12 md:w-16 md:h-16 flex items-center justify-center [&>svg]:w-full [&>svg]:h-full ${item.color}`} dangerouslySetInnerHTML={{ __html: item.icon }}></span>
+                  <span className={`w-3.5 h-3.5 flex items-center justify-center [&>svg]:w-full [&>svg]:h-full ${item.color}`} dangerouslySetInnerHTML={{ __html: item.icon }}></span>
                 ) : (
-                  <i className={`${item.icon} ${item.color} text-4xl md:text-5xl`} title={item.label}></i>
+                  <i className={`${item.icon} ${item.color} text-sm`}></i>
                 )
               ) : (
-                <span className="text-2xl md:text-3xl font-bold" style={item.style}>{item.label.split(' ')[0]}</span>
+                <span className="font-bold text-xs" style={item.style}>{item.label.split(' ')[0]}</span>
               )}
+              <span>{item.label}</span>
             </span>
           ))}
         </div>
