@@ -23,7 +23,7 @@ export const projectsData = [
   {
     id: 0, title: 'Shuh Appliance', year: '2024', category: 'Web App', type: 'web',
     description: 'An innovative web application for Shuh Appliance.',
-    summary: 'A comprehensive e-commerce and appliance management platform built with modern technologies. Shuh Appliance provides a complete solution for discovering, managing, and purchasing home appliances, featuring real-time inventory tracking and a seamless customer checkout experience.',
+    summary: 'A comprehensive ecommerce and appliance management platform built with modern technologies. Shuh Appliance provides a complete solution for discovering, managing, and purchasing home appliances, featuring real-time inventory tracking and a seamless customer checkout experience.',
     emoji: '🔌', visualTitle: 'Shuh Appliance', visualSub: 'Appliance Management', image: '/projects/shuh_1.png', images: ['/projects/shuh_1.png', '/projects/shuh_2.png', '/projects/shuh_3.png', '/projects/shuh_4.png'],
     tech: ['React', 'Node.js', 'Tailwind CSS'],
     metrics: { 'Users': '1K+' },
@@ -33,7 +33,7 @@ export const projectsData = [
   {
     id: 1, title: 'Rx Incidence', year: '2024', category: 'Health Tech', type: 'web',
     description: 'Healthcare tracking and incidence reporting system.',
-    summary: 'An advanced healthcare tracking and incidence reporting platform that streamlines medical compliance and patient safety assessments. Rx Incidence provides medical professionals with secure, HIPAA-compliant tools to report, analyze, and manage clinical incidents through intelligent automation.',
+    summary: 'An advanced healthcare tracking and incidence reporting platform that streamlines medical compliance and patient safety assessments. Rx Incidence provides medical professionals with secure, HIPAAcompliant tools to report, analyze, and manage clinical incidents through intelligent automation.',
     emoji: '⚕️', visualTitle: 'Rx Incidence', visualSub: 'Incidence Tracking', image: '/projects/rx_incident.png', images: ['/projects/rx_incident_1.png', '/projects/rx_incident_2.png', '/projects/rx_incident_3.png'],
     tech: ['Next.js', 'PostgreSQL'],
     metrics: { 'Incidents': '10K+' },
@@ -43,7 +43,7 @@ export const projectsData = [
   {
     id: 2, title: 'State Technologies', year: '2024', category: 'Enterprise', type: 'web',
     description: 'Enterprise resource planning and management platform.',
-    summary: 'An enterprise-grade digital transformation and resource planning platform engineered for scalable business growth. State Technologies delivers a unified dashboard for managing operations, boosting efficiency, and driving innovation across modern enterprise workflows.',
+    summary: 'An enterprise grade digital transformation and resource planning platform engineered for scalable business growth. State Technologies delivers a unified dashboard for managing operations, boosting efficiency, and driving innovation across modern enterprise workflows.',
     emoji: '🏢', visualTitle: 'State Technologies', visualSub: 'Enterprise Software', image: '/projects/state_1.png', images: ['/projects/state_1.png', '/projects/state_2.png', '/projects/state_3.png', '/projects/state_4.png', '/projects/state_5.png'],
     tech: ['Angular', '.NET Core'],
     metrics: { 'Clients': '500+' },
@@ -53,7 +53,7 @@ export const projectsData = [
   {
     id: 3, title: 'Beg Event Group', year: '2024', category: 'Events', type: 'both',
     description: 'Comprehensive event management and planning platform.',
-    summary: 'A premier event management and production platform designed for high-energy entertainment and seamless event execution. Beg Event Group streamlines vendor coordination, attendee management, and entertainment booking for large-scale events and weddings across the region.',
+    summary: 'A premier event management and production platform designed for highenergy entertainment and seamless event execution. Beg Event Group streamlines vendor coordination, attendee management, and entertainment booking for large-scale events and weddings across the region.',
     emoji: '🎉', visualTitle: 'Beg Event Group', visualSub: 'Event Management', image: '/projects/beg_1.png', images: ['/projects/beg_1.png', '/projects/beg_2.png', '/projects/beg_3.png', '/projects/beg_4.png', '/projects/beg_5.png', '/projects/beg_6.png'],
     tech: ['React', 'Firebase'],
     metrics: { 'Events': '1K+' },
@@ -63,7 +63,7 @@ export const projectsData = [
   {
     id: 4, title: 'Robert Andrew Salone', year: '2024', category: 'Booking', type: 'web',
     description: 'Streamlined salon booking and management system.',
-    summary: 'A highly optimized, enterprise-level salon booking and customer relationship management system. The platform provides a complete solution for scheduling appointments, managing staff calendars, and maintaining detailed client histories for a premium salon experience.',
+    summary: 'A highly optimized, enterprise level salon booking and customer relationship management system. The platform provides a complete solution for scheduling appointments, managing staff calendars, and maintaining detailed client histories for a premium salon experience.',
     emoji: '💇', visualTitle: 'Robert Andrew Salone', visualSub: 'Salon Booking', image: '/projects/robert_1.png', images: ['/projects/robert_1.png', '/projects/robert_2.png', '/projects/robert_3.png', '/projects/robert_4.png', '/projects/robert_5.png'],
     tech: ['React', 'Node.js'],
     metrics: { 'Bookings': '5K+' },
@@ -73,7 +73,7 @@ export const projectsData = [
   {
     id: 5, title: 'Rx Intelligence', year: '2024', category: 'Health Tech', type: 'web',
     description: 'Intelligent healthcare analytics platform.',
-    summary: 'A data-driven healthcare analytics platform providing specialized research services for pharmaceutical product managers. Rx Intelligence leverages advanced data modeling to help institutions make informed, data-driven decisions and improve overall care quality.',
+    summary: 'A data driven healthcare analytics platform providing specialized research services for pharmaceutical product managers. Rx Intelligence leverages advanced data modeling to help institutions make informed, data driven decisions and improve overall care quality.',
     emoji: '🧠', visualTitle: 'Rx Intelligence', visualSub: 'Healthcare Analytics', image: '/projects/rx_intel_1.png', images: ['/projects/rx_intel_1.png', '/projects/rx_intel_2.png', '/projects/rx_intel_3.png'],
     tech: ['React', 'Python'],
     metrics: { 'Data': '1M+' },
@@ -187,7 +187,7 @@ const commonExperienceData = [
     type: 'Full-time',
     duration: '4 yrs 5 mos',
     location: 'Greater Ahmedabad Area',
-    desc: 'Architected 15+ scalable backend solutions for SaaS and e-commerce clients, handling 100K+ daily transactions.',
+    desc: 'Architected 15+ scalable backend solutions for SaaS and ecommerce clients, handling 100K+ daily transactions.',
     skills: ['Laravel', 'WordPress', 'Backend Architecture', 'and 10 additional skills.'],
     align: 'right'
   },
@@ -223,7 +223,7 @@ const experienceDataIndia = [
     type: 'Full-time',
     duration: '11 mos',
     location: 'Kadi, Gujarat, India · Remote',
-    desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end-to-end project lifecycles, from requirement gathering to delivery, ensuring high-quality software solutions.',
+    desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end to end project lifecycles, from requirement gathering to delivery, ensuring high quality software solutions.',
     skills: ['React', 'Node.js', 'and additional skills'],
     align: 'right'
   },
@@ -259,7 +259,7 @@ export const testimonialsData = [
     role: 'Client'
   },
   {
-    text: '"Working with Umesh Patel has been an excellent experience. He is a highly skilled Full Stack Developer with strong expertise in both Laravel and React. Umesh successfully enhanced our custom CRM system, including developing the Sales Pipeline Tracking feature and resolving existing bugs with precision. What impressed me most was his technical depth, problem-solving mindset, and clear communication. He quickly understood our requirements, delivered clean and scalable solutions, and also suggested improvements where needed. His ability to handle both backend and frontend seamlessly made the project run smoothly. Umesh is professional, reliable, and proactive, qualities that make him a valuable asset to any team. I look forward to working with him again and would strongly recommend him to anyone seeking a top-tier developer for complex web applications."',
+    text: '"Working with Umesh Patel has been an excellent experience. He is a highly skilled Full Stack Developer with strong expertise in both Laravel and React. Umesh successfully enhanced our custom CRM system, including developing the Sales Pipeline Tracking feature and resolving existing bugs with precision. What impressed me most was his technical depth, problem solving mindset, and clear communication. He quickly understood our requirements, delivered clean and scalable solutions, and also suggested improvements where needed. His ability to handle both backend and frontend seamlessly made the project run smoothly. Umesh is professional, reliable, and proactive, qualities that make him a valuable asset to any team. I look forward to working with him again and would strongly recommend him to anyone seeking a top-tier developer for complex web applications."',
     author: 'Kate Smith',
     role: 'Client'
   },
