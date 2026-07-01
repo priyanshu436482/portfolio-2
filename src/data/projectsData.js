@@ -221,7 +221,7 @@ const experienceDataIndia = [
     title: 'Senior Full Stack Developer',
     company: 'Nexuron Technologies',
     type: 'Full-time',
-    duration: '11 mos',
+    duration: '3 yrs 7 mos',
     location: 'Kadi, Gujarat, India · Remote',
     desc: 'Contributed to the design, development, and deployment of robust web and mobile applications. Took ownership of end to end project lifecycles, from requirement gathering to delivery, ensuring high quality software solutions.',
     skills: ['React', 'Node.js', 'and additional skills'],

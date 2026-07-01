@@ -81,28 +81,32 @@ export default function ContactModal({ isOpen, onClose }) {
                   <p className="text-sm font-medium text-[#111827]"><a href="mailto:umeshmca.kadi@gmail.com" className="hover:text-[var(--accent-1)] transition-colors">umeshmca.kadi@gmail.com</a></p>
                 </div>
               </div>
-              <div className="modal-info-item">
-                 <div className="modal-info-icon"><i className="fa-solid fa-phone"></i></div>
-                <div>
-                  <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide">Canada Phone</p>
-                  <p className="text-sm font-medium text-[#111827] mt-1">
-                    <a href={`tel:${import.meta.env.VITE_PHONE_CANADA?.replace(/\D/g, '')}`} className="hover:text-[var(--accent-1)] transition-colors">
-                      <span className="text-[#64748B] mr-2">🇨🇦</span>{import.meta.env.VITE_PHONE_CANADA}
-                    </a>
-                  </p>
+              {REGION === 'canada' && (
+                <div className="modal-info-item">
+                   <div className="modal-info-icon"><i className="fa-solid fa-phone"></i></div>
+                  <div>
+                    <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide">Canada Phone</p>
+                    <p className="text-sm font-medium text-[#111827] mt-1">
+                      <a href={`tel:${import.meta.env.VITE_PHONE_CANADA?.replace(/\D/g, '')}`} className="hover:text-[var(--accent-1)] transition-colors">
+                        <span className="text-[#64748B] mr-2">🇨🇦</span>{import.meta.env.VITE_PHONE_CANADA}
+                      </a>
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="modal-info-item">
-                 <div className="modal-info-icon"><i className="fa-solid fa-phone"></i></div>
-                <div>
-                  <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide">India Phone</p>
-                  <p className="text-sm font-medium text-[#111827] mt-1">
-                    <a href={`tel:${import.meta.env.VITE_PHONE_INDIA?.replace(/\D/g, '')}`} className="hover:text-[var(--accent-1)] transition-colors">
-                      <span className="text-[#64748B] mr-2">🇮🇳</span>{import.meta.env.VITE_PHONE_INDIA}
-                    </a>
-                  </p>
+              )}
+              {REGION === 'india' && (
+                <div className="modal-info-item">
+                   <div className="modal-info-icon"><i className="fa-solid fa-phone"></i></div>
+                  <div>
+                    <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide">India Phone</p>
+                    <p className="text-sm font-medium text-[#111827] mt-1">
+                      <a href={`tel:${import.meta.env.VITE_PHONE_INDIA?.replace(/\D/g, '')}`} className="hover:text-[var(--accent-1)] transition-colors">
+                        <span className="text-[#64748B] mr-2">🇮🇳</span>{import.meta.env.VITE_PHONE_INDIA}
+                      </a>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              )}
                 <div className="modal-info-item">
                   <div className="modal-info-icon"><i className="fa-solid fa-location-dot"></i></div>
                   <div>
