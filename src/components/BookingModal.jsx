@@ -271,7 +271,7 @@ export default function BookingModal({ isOpen, onClose }) {
  
               <div className="mt-auto pt-6 border-t border-slate-200">
                 <p className="text-xs font-medium text-[#64748B] uppercase tracking-wide mb-3">Prefer email first?</p>
-                <a href="mailto:umeshmca.kadi@gmail.com" className="text-sm font-medium text-[#3B82F6] hover:text-[#2563EB] transition-colors">
+                <a href="mailto:umeshmca.kadi@gmail.com" className="text-sm font-medium text-[#FFA000] hover:text-[#FFA000] transition-colors">
                   umeshmca.kadi@gmail.com <i className="fa-solid fa-arrow-right text-xs"></i>
                 </a>
               </div>
