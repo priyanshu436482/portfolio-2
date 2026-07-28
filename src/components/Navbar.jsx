@@ -35,26 +35,27 @@ export default function Navbar({ onOpenModal, onOpenBooking }) {
   return (
     <header
       id="navbar"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isNavbarActive ? 'nav-blur' : ''}`}
+      className={`fixed top-0 left-0 right-0 z-[100] transition-[transform,opacity,background-color,border-color,box-shadow] duration-300 ease-out ${isNavbarActive ? 'nav-blur' : 'bg-transparent'}`}
       style={{
         transform: hidden ? 'translateY(-100%)' : 'translateY(0)',
         opacity: hidden ? 0 : 1,
+        pointerEvents: hidden ? 'none' : 'auto',
       }}
       role="banner"
     >
-      <div className="max-w-7xl mx-auto px-5 md:px-8 py-3 md:py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 py-3 md:py-4 flex items-center justify-between gap-3 md:gap-4">
         {isHome ? (
-          <a href="#hero" className="flex items-center gap-2.5 group" aria-label="Umesh Patel Home">
+          <a href="#hero" className="flex items-center gap-2.5 group shrink-0 min-w-0" aria-label="Umesh Patel Home">
             <span className="logo-mark">UP</span>
-            <span className="font-semibold text-sm md:text-base text-[var(--text-primary)] tracking-tight">Umesh Patel</span>
+            <span className="font-semibold text-sm md:text-base text-[var(--text-primary)] tracking-tight truncate">Umesh Patel</span>
           </a>
         ) : (
-          <Link to="/" className="flex items-center gap-2.5 group" aria-label="Umesh Patel Home">
+          <Link to="/" className="flex items-center gap-2.5 group shrink-0 min-w-0" aria-label="Umesh Patel Home">
             <span className="logo-mark">UP</span>
-            <span className="font-semibold text-sm md:text-base text-[var(--text-primary)] tracking-tight">Umesh Patel</span>
+            <span className="font-semibold text-sm md:text-base text-[var(--text-primary)] tracking-tight truncate">Umesh Patel</span>
           </Link>
         )}
-        <nav className="hidden md:flex items-center gap-8" role="navigation" aria-label="Main navigation">
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8" role="navigation" aria-label="Main navigation">
           {isHome ? (
             <>
               <a href="#work" className="nav-link">Work</a>
@@ -71,7 +72,7 @@ export default function Navbar({ onOpenModal, onOpenBooking }) {
             </>
           )}
         </nav>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
           <button
             className="btn-primary text-sm !py-2 !px-4 md:!py-2.5 md:!px-5 magnetic-btn hidden sm:inline-flex"
             onClick={onOpenBooking}
@@ -80,13 +81,13 @@ export default function Navbar({ onOpenModal, onOpenBooking }) {
           </button>
           {isHome ? (
             <button
-              className="btn-outline text-sm !py-2 !px-5 md:!py-2.5 md:!px-6 magnetic-btn"
+              className="btn-outline text-sm !py-2 !px-4 sm:!px-5 md:!py-2.5 md:!px-6 magnetic-btn whitespace-nowrap"
               onClick={onOpenModal}
             >
               Let's Talk <i className="fa-solid fa-arrow-right text-xs"></i>
             </button>
           ) : (
-            <a href="/#contact" className="btn-outline text-sm !py-2 !px-5 md:!py-2.5 md:!px-6 magnetic-btn">
+            <a href="/#contact" className="btn-outline text-sm !py-2 !px-4 sm:!px-5 md:!py-2.5 md:!px-6 magnetic-btn whitespace-nowrap">
               Let's Talk <i className="fa-solid fa-arrow-right text-xs"></i>
             </a>
           )}
