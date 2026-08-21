@@ -355,7 +355,7 @@ body {
 @keyframes pulseRing { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
 
-.modal-container.project-modal { max-width: 920px; }
+.modal-container.project-modal { max-width: 1180px; }
 .project-modal-layout { display: grid; grid-template-columns: 1.2fr 1fr; }
 @media (max-width: 767px) { .project-modal-layout { grid-template-columns: 1fr; } }
 @media (max-width: 767px) {
