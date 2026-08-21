@@ -54,7 +54,7 @@ export const projectsData = [
     id: 3, title: 'Beg Event Group', year: '2024', category: 'Events', type: 'both',
     description: 'Comprehensive event management and planning platform.',
     summary: 'A premier event management and production platform designed for highenergy entertainment and seamless event execution. Beg Event Group streamlines vendor coordination, attendee management, and entertainment booking for large-scale events and weddings across the region.',
-    emoji: '🎉', visualTitle: 'Beg Event Group', visualSub: 'Event Management', image: '/projects/beg-event-group/1.png', images: ['/projects/beg-event-group/1.png', '/projects/beg-event-group/2.png', '/projects/beg-event-group/3.png', '/projects/beg-event-group/4.png', '/projects/beg-event-group/5.png', '/projects/beg-event-group/6.png'],
+    emoji: '🎉', visualTitle: 'Beg Event Group', visualSub: 'Event Management', image: '/projects/beg-event-group/2.png', images: ['/projects/beg-event-group/2.png', '/projects/beg-event-group/3.png', '/projects/beg-event-group/4.png', '/projects/beg-event-group/5.png', '/projects/beg-event-group/6.png'],
     tech: ['React', 'Firebase'],
     metrics: { 'Events': '1K+' },
     links: [{ url: 'https://begeventgroup.com/', label: 'Live Site' }],
