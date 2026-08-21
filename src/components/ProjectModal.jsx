@@ -24,7 +24,7 @@ export default function ProjectModal({ projectId, isOpen, onClose, onOpenVoice }
         <div className="modal-content project-modal-content" data-lenis-prevent>
         <div className="project-modal-layout">
           <div className="project-modal-visual">
-            <div className="project-pattern" aria-hidden="true" style={{ color: p.accent }}></div>
+            <div className="project-pattern project-pattern-brand" aria-hidden="true"></div>
             {hasImages ? (
               <ImageCarousel project={p} />
             ) : (
@@ -69,7 +69,6 @@ export default function ProjectModal({ projectId, isOpen, onClose, onOpenVoice }
                       target="_blank"
                       rel="noopener noreferrer"
                       className="live-link"
-                      style={{ color: p.accent }}
                     >
                       {link.icon && <i className={link.icon}></i>}
                       {link.label} <i className="fa-solid fa-arrow-right text-xs"></i>

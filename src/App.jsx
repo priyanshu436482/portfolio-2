@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import ProjectsPage from './pages/ProjectsPage';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
@@ -23,7 +23,6 @@ import { useLenis } from './hooks/useLenis';
 import { useScrollReveal } from './hooks/useScrollReveal';
 
 function App() {
-  const navigate = useNavigate();
   const [contactOpen, setContactOpen] = useState(false);
   const [bookingOpen, setBookingOpen] = useState(false);
   const [projectModalOpen, setProjectModalOpen] = useState(false);
@@ -38,15 +37,12 @@ function App() {
   const revealRef = useScrollReveal();
 
   useEffect(() => {
-    // Redirect to home and scroll to top on first mount / reload
-    if (window.location.pathname !== '/' && !window.location.hash) {
-      navigate('/', { replace: true });
-    }
+    // Initial scroll reset only — do not redirect away from /projects
     window.scrollTo(0, 0);
     if (lenisRef?.current) {
       lenisRef.current.scrollTo(0, { immediate: true });
     }
-  }, [lenisRef, navigate]);
+  }, [lenisRef]);
 
 
   useEffect(() => {

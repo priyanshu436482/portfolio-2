@@ -16,7 +16,7 @@ export default function ImageCarousel({ project }) {
   const intervalRef = useRef(null);
 
   const hasMultiple = images.length > 1;
-  const accent = project.accent || '#2563EB';
+  const accent = 'var(--accent-1)';
 
   const goTo = useCallback((index) => {
     setCurrent(index);
@@ -86,8 +86,8 @@ export default function ImageCarousel({ project }) {
             failedImages.has(i) ? (
               <div key={i} className="carousel-slide z-10 w-full h-full flex flex-col items-center justify-center p-8 bg-white/50 backdrop-blur-sm rounded-xl border border-white/20">
                 <div className="text-6xl md:text-7xl lg:text-8xl mb-4 opacity-90">{project.emoji}</div>
-                <p className="font-bold text-xl md:text-2xl text-center" style={{ color: project.accent }}>{project.visualTitle}</p>
-                <p className="text-sm md:text-base text-center mt-2 opacity-80" style={{ color: project.accent }}>{project.visualSub}</p>
+                <p className="font-bold text-xl md:text-2xl text-center text-[var(--accent-2)]">{project.visualTitle}</p>
+                <p className="text-sm md:text-base text-center mt-2 opacity-80 text-[var(--accent-1)]">{project.visualSub}</p>
               </div>
             ) : (
               <img

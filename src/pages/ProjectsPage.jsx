@@ -1,18 +1,11 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { projectsData } from '../data/projectsData';
 import ProjectCard from '../components/ProjectCard';
 import ProjectModal from '../components/ProjectModal';
 import VoiceModal from '../components/VoiceModal';
 
-const TABS = [
-  { key: 'all', label: 'All Projects', icon: 'fa-solid fa-layer-group' },
-  { key: 'web', label: 'Web Apps', icon: 'fa-solid fa-globe' },
-  { key: 'mobile', label: 'Mobile Apps', icon: 'fa-solid fa-mobile-screen-button' },
-];
-
 export default function ProjectsPage() {
-  const [activeTab, setActiveTab] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [voiceModalOpen, setVoiceModalOpen] = useState(false);
@@ -38,11 +31,6 @@ export default function ProjectsPage() {
     setVoiceProject(null);
   };
 
-  const filtered = useMemo(() => {
-    if (activeTab === 'all') return projectsData;
-    return projectsData.filter((p) => p.type === activeTab || p.type === 'both');
-  }, [activeTab]);
-
   return (
     <div className="projects-page">
       <div className="projects-page-header">
@@ -60,50 +48,16 @@ export default function ProjectsPage() {
       </div>
 
       <div className="max-w-7xl mx-auto px-5 md:px-8 pb-20 md:pb-28">
-        <div className="projects-page-tabs" role="tablist" aria-label="Filter projects by type">
-            {TABS.map((tab) => (
-              <button
-                key={tab.key}
-                role="tab"
-                aria-selected={activeTab === tab.key}
-                className={`projects-page-tab ${activeTab === tab.key ? 'active' : ''}`}
-                onClick={() => setActiveTab(tab.key)}
-              >
-                <i className={tab.icon}></i>
-                {tab.label}
-                {tab.key === 'all' && (
-                  <span className="projects-page-tab-count">{projectsData.length}</span>
-                )}
-                {tab.key === 'web' && (
-                  <span className="projects-page-tab-count">
-                    {projectsData.filter((p) => p.type === 'web' || p.type === 'both').length}
-                  </span>
-                )}
-                {tab.key === 'mobile' && (
-                  <span className="projects-page-tab-count">
-                    {projectsData.filter((p) => p.type === 'mobile' || p.type === 'both').length}
-                  </span>
-                )}
-              </button>
-            ))}
-          </div>
-        {filtered.length > 0 ? (
-          <div className="projects-page-list">
-            {filtered.map((project, i) => (
-              <ProjectCard
-                key={project.id}
-                project={project}
-                index={i}
-                onClick={openProject}
-              />
-            ))}
-          </div>
-        ) : (
-          <div className="projects-page-empty">
-            <i className="fa-solid fa-search"></i>
-            <p>No projects found in this category.</p>
-          </div>
-        )}
+        <div className="projects-page-list">
+          {projectsData.map((project, i) => (
+            <ProjectCard
+              key={project.id}
+              project={project}
+              index={i}
+              onClick={openProject}
+            />
+          ))}
+        </div>
       </div>
 
       <ProjectModal
