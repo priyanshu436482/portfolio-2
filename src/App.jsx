@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import ProjectsPage from './pages/ProjectsPage';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
@@ -23,6 +23,8 @@ import { useLenis } from './hooks/useLenis';
 import { useScrollReveal } from './hooks/useScrollReveal';
 
 function App() {
+  const location = useLocation();
+  const isProjectsPage = location.pathname === '/projects';
   const [contactOpen, setContactOpen] = useState(false);
   const [bookingOpen, setBookingOpen] = useState(false);
   const [projectModalOpen, setProjectModalOpen] = useState(false);
@@ -177,7 +179,7 @@ function App() {
         } />
         <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
-      <Footer />
+      {!isProjectsPage && <Footer />}
       <Terminal isOpen={terminalOpen} onOpenChange={setTerminalOpen} />
       <ContactModal isOpen={contactOpen} onClose={closeContact} />
       <BookingModal isOpen={bookingOpen} onClose={closeBooking} />
