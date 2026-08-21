@@ -54,7 +54,6 @@ function ContentSide({ project }) {
       <div>
         <div className="flex items-center gap-2 mb-3">
           <span className="badge">{project.category}</span>
-          <span className="text-xs text-[var(--text-muted)] font-mono-custom">{project.year}</span>
         </div>
         <h3 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)]">{project.title}</h3>
         <p className="text-[var(--text-secondary)] text-sm mt-2">{project.summary || project.description}</p>
