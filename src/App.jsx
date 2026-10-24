@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import SkillsMarquee from './components/SkillsMarquee';
 import SkillsGrid from './components/SkillsGrid';
+import Industries from './components/Industries';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Testimonials from './components/Testimonials';
@@ -162,9 +163,11 @@ function App() {
             <Hero onOpenModal={openContact} />
             <hr className="section-divider" />
             <About />
-            <SkillsMarquee />
-            <hr className="section-divider" />
             <SkillsGrid activeSkill={activeSkill} setActiveSkill={setActiveSkill} />
+            <hr className="section-divider" />
+            <Industries />
+            <hr className="section-divider" />
+            <SkillsMarquee />
             <hr className="section-divider" />
             <Projects onOpenProject={openProject} activeSkill={activeSkill} />
             <hr className="section-divider" />

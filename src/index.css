@@ -1796,6 +1796,202 @@ footer.bg-white { background: var(--bg-primary) !important; }
   background-color: rgba(255, 160, 0, 0.08);
 }
 
+/* ── Industries section ── */
+.industries-section {
+  background: #fff;
+  position: relative;
+}
+.industries-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 640px) {
+  .industries-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .industries-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+}
+.industry-cell {
+  padding: 1.75rem 1.5rem;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+  background: #fff;
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+@media (min-width: 768px) {
+  .industry-cell { padding: 2rem 1.75rem; }
+}
+.industry-cell:hover {
+  background: rgba(255, 160, 0, 0.04);
+  border-color: rgba(255, 160, 0, 0.22);
+  box-shadow: var(--shadow-md);
+}
+.industry-icon.mark-ic {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  margin-bottom: 1.25rem;
+  color: #111827;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background:
+    linear-gradient(150deg, rgba(255, 160, 0, 0.16), transparent 70%),
+    #FFF9F2;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.industry-cell:hover .industry-icon.mark-ic {
+  border-color: var(--accent-1);
+  box-shadow: 0 10px 28px -10px rgba(255, 160, 0, 0.45);
+  transform: translateY(-3px);
+}
+.industry-icon .ic {
+  width: 40px;
+  height: 40px;
+  overflow: visible;
+}
+.industry-icon .ic .a {
+  stroke: var(--accent-1);
+}
+.industry-title {
+  font-family: var(--font-heading);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+.industry-desc {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: #475569;
+  margin: 0;
+}
+
+/* Draw-in stroke animation */
+.draw-in:not(.is-drawn) .d {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+.draw-in.is-drawn .d {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+  transition-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* Transform origins for micro-animations */
+.ic .pkg,
+.ic .spin,
+.ic .plus,
+.ic .pad,
+.ic .dot,
+.ic .lay,
+.ic .sw {
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+.ic .bar {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+.ic .sw-l { transform-origin: 14px 8px; transform: rotate(18deg); }
+.ic .sw-r { transform-origin: 34px 8px; }
+.ic .ln { transform-origin: 0 50%; }
+.ic .pulse-line { stroke-dasharray: 1; }
+
+/* Hover micro-animations */
+.industry-cell:hover .pkg { animation: ind-pkg-drop 0.9s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.industry-cell:hover .spin { animation: ind-spin 2.2s linear infinite; }
+.industry-cell:hover .pulse-line { animation: ind-tick 1.5s ease-in-out infinite; }
+.industry-cell:hover .wins { animation: ind-pulse 1.1s ease-in-out infinite; }
+.industry-cell:hover .dot { animation: ind-hop 0.9s ease-in-out infinite; }
+.industry-cell:hover .dot2 { animation-delay: 0.15s; }
+.industry-cell:hover .dot3 { animation-delay: 0.3s; }
+.industry-cell:hover .sw-l { animation: ind-cradle-l 1.6s ease-in-out infinite; }
+.industry-cell:hover .sw-r { animation: ind-cradle-r 1.6s ease-in-out infinite; }
+.industry-cell:hover .pad { animation: ind-hop 0.9s ease-in-out infinite; }
+.industry-cell:hover .pads .pad:nth-child(2) { animation-delay: 0.1s; }
+.industry-cell:hover .pads .pad:nth-child(3) { animation-delay: 0.2s; }
+.industry-cell:hover .pads .pad:nth-child(4) { animation-delay: 0.3s; }
+.industry-cell:hover .ln { animation: ind-line-in 0.9s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.industry-cell:hover .ln2 { animation-delay: 0.12s; }
+.industry-cell:hover .ln3 { animation-delay: 0.24s; }
+.industry-cell:hover .bar1 { animation: ind-bar 0.9s ease-in-out infinite; }
+.industry-cell:hover .bar2 { animation: ind-bar 0.9s ease-in-out 0.15s infinite; }
+.industry-cell:hover .bar3 { animation: ind-bar 0.9s ease-in-out 0.3s infinite; }
+.industry-cell:hover .l1 { transform: translateY(-3px); transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); }
+.industry-cell:hover .l3 { transform: translateY(3px); transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); }
+.industry-cell:hover .plus { animation: ind-spin-once 0.9s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+@keyframes ind-pkg-drop {
+  0% { transform: translateY(-7px); opacity: 0; }
+  45% { opacity: 1; }
+  100% { transform: translateY(4px); opacity: 1; }
+}
+@keyframes ind-spin { 100% { transform: rotate(360deg); } }
+@keyframes ind-spin-once { 100% { transform: rotate(180deg); } }
+@keyframes ind-tick {
+  0% { stroke-dashoffset: 1; }
+  45%, 100% { stroke-dashoffset: 0; }
+}
+@keyframes ind-pulse {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}
+@keyframes ind-hop {
+  0%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-4px); }
+}
+@keyframes ind-line-in {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
+}
+@keyframes ind-bar {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(1.18); }
+}
+@keyframes ind-cradle-l {
+  0% { transform: rotate(18deg); }
+  25% { transform: rotate(0deg); }
+  75% { transform: rotate(0deg); }
+  100% { transform: rotate(18deg); }
+}
+@keyframes ind-cradle-r {
+  0%, 25% { transform: rotate(0deg); }
+  50% { transform: rotate(-18deg); }
+  75%, 100% { transform: rotate(0deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .draw-in:not(.is-drawn) .d { stroke-dashoffset: 0; }
+  .industry-cell:hover .pkg,
+  .industry-cell:hover .spin,
+  .industry-cell:hover .pulse-line,
+  .industry-cell:hover .wins,
+  .industry-cell:hover .dot,
+  .industry-cell:hover .sw-l,
+  .industry-cell:hover .sw-r,
+  .industry-cell:hover .pad,
+  .industry-cell:hover .ln,
+  .industry-cell:hover .bar1,
+  .industry-cell:hover .bar2,
+  .industry-cell:hover .bar3,
+  .industry-cell:hover .plus {
+    animation: none;
+  }
+}
+
 /* ── 13. Section dividers ── */
 .section-divider {
   height: 1px;
