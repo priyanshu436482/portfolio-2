@@ -72,7 +72,7 @@ const industries = [
     ),
   },
   {
-    title: 'Beauty & salon',
+    title: 'Beauty & Fashion',
     desc: 'Booking systems, staff calendars, and client history management.',
     icon: (
       <svg className="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -138,6 +138,49 @@ const industries = [
         <circle className="d" pathLength="1" cx="18" cy="24" r="9" />
         <circle className="a" cx="30" cy="24" r="9" />
         <path d="M24 17.5v13" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Finance',
+    desc: 'Payment flows, dashboards, and financial operations platforms.',
+    icon: (
+      <svg className="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <circle className="d" pathLength="1" cx="24" cy="24" r="14" />
+        <path className="a" d="M24 14v20M19 18h7a3.5 3.5 0 0 1 0 7h-5a3.5 3.5 0 0 0 0 7h8" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Real Estate',
+    desc: 'Listings, lead pipelines, and property management tools.',
+    icon: (
+      <svg className="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path className="d" pathLength="1" d="M8 22L24 8l16 14v16a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V22z" />
+        <path className="a" d="M20 40V26h8v14" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Education',
+    desc: 'Learning platforms, student portals, and course management.',
+    icon: (
+      <svg className="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path className="d" pathLength="1" d="M6 20l18-10 18 10-18 10L6 20z" />
+        <path d="M12 24v10c0 0 5 6 12 6s12-6 12-6V24" />
+        <path className="a" d="M42 20v14" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Travel Tourism',
+    desc: 'Booking engines, itineraries, and destination experiences.',
+    icon: (
+      <svg className="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path className="d" pathLength="1" d="M10 28l14-18 4 8 10-4-6 14H10z" />
+        <path className="a" d="M8 38h32" />
+        <circle cx="16" cy="38" r="2" />
+        <circle cx="34" cy="38" r="2" />
       </svg>
     ),
   },

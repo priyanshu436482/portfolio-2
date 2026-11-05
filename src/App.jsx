@@ -5,6 +5,8 @@ import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import AiServices from './components/AiServices';
+import AiAssisted from './components/AiAssisted';
 import SkillsMarquee from './components/SkillsMarquee';
 import SkillsGrid from './components/SkillsGrid';
 import Industries from './components/Industries';
@@ -163,11 +165,15 @@ function App() {
             <Hero onOpenModal={openContact} />
             <hr className="section-divider" />
             <About />
+            <hr className="section-divider" />
+            <AiServices onOpenModal={openContact} />
             <SkillsGrid activeSkill={activeSkill} setActiveSkill={setActiveSkill} />
             <hr className="section-divider" />
             <Industries />
             <hr className="section-divider" />
             <SkillsMarquee />
+            <hr className="section-divider" />
+            <AiAssisted />
             <hr className="section-divider" />
             <Projects onOpenProject={openProject} activeSkill={activeSkill} />
             <hr className="section-divider" />

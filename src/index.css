@@ -146,6 +146,48 @@ body {
 .testimonial-card { transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
 .testimonial-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
 
+.testimonials-slider { position: relative; }
+.testimonials-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.testimonials-nav {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: #fff;
+  color: #111827;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s, background 0.25s;
+}
+.testimonials-nav:hover {
+  border-color: rgba(255, 160, 0, 0.35);
+  box-shadow: var(--shadow-md);
+  transform: scale(1.05);
+}
+.testimonials-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  border: none;
+  padding: 0;
+  background: rgba(15, 23, 42, 0.18);
+  cursor: pointer;
+  transition: background 0.25s, transform 0.25s, width 0.25s;
+}
+.testimonials-dot.active {
+  width: 22px;
+  background: var(--accent-1);
+}
+
 .marquee-track { display: flex; gap: 2rem; animation: marquee 10s linear infinite; }
 .marquee-track-reverse { animation-direction: reverse; animation-duration: 35s; }
 @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
@@ -352,6 +394,7 @@ body {
 .modal-social a:hover { background: rgba(229, 166, 46,0.12); color: var(--accent-1); transform: translateY(-2px); }
 
 .status-ring { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #2FA84F; margin-right: 0.375rem; animation: pulseRing 2s ease-in-out infinite; }
+.status-ring--away { background: #94a3b8; animation: none; opacity: 0.85; }
 @keyframes pulseRing { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
 

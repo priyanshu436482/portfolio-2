@@ -27,33 +27,62 @@ function Metric({ target, label }) {
   );
 }
 
-function LiveClock({ timeZone, timeZoneLabel }) {
+const WORK_START = 9;  // 9:00 AM
+const WORK_END = 19;   // 7:00 PM
+
+function getHourInZone(date, timeZone) {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone,
+    hour: 'numeric',
+    hourCycle: 'h23',
+  }).formatToParts(date);
+  const hour = Number(parts.find((p) => p.type === 'hour')?.value ?? 0);
+  return hour === 24 ? 0 : hour;
+}
+
+function AvailabilityClock({ timeZone, timeZoneLabel, workHoursLabel }) {
   const [time, setTime] = useState('');
+  const [isAvailable, setIsAvailable] = useState(false);
 
   useEffect(() => {
-    const updateTime = () => {
-      const options = {
-        timeZone: timeZone,
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        hour12: true
-      };
-      setTime(new Intl.DateTimeFormat('en-US', options).format(new Date()));
+    const update = () => {
+      const now = new Date();
+      setTime(
+        new Intl.DateTimeFormat('en-US', {
+          timeZone,
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: true,
+        }).format(now)
+      );
+      const hour = getHourInZone(now, timeZone);
+      setIsAvailable(hour >= WORK_START && hour < WORK_END);
     };
 
-    updateTime();
-    const interval = setInterval(updateTime, 1000);
+    update();
+    const interval = setInterval(update, 1000);
     return () => clearInterval(interval);
   }, [timeZone]);
 
   return (
-    <>
+    <div className="bg-[#FAF9F5] border border-[#0f172a08] rounded-xl p-4 text-center">
+      <span className={`status-ring mb-1 ${isAvailable ? '' : 'status-ring--away'}`}></span>
+      <span
+        className={`text-xs font-bold uppercase tracking-wider block mb-2 ${
+          isAvailable ? 'text-[#2fa84f]' : 'text-[#94a3b8]'
+        }`}
+      >
+        {isAvailable ? 'Available for Work' : 'Outside Work Hours'}
+      </span>
       <div className="font-mono-custom text-xl font-bold tracking-widest text-[var(--accent-1)]">
-        {time || '12:00:00 PM'}
+        {time || '--:--:-- --'}
       </div>
       <span className="text-[10px] text-[#8b8b8b] block mt-1 font-mono-custom">{timeZoneLabel}</span>
-    </>
+      <span className="text-[10px] text-[#64748B] block mt-2 font-semibold tracking-wide">
+        {workHoursLabel || 'Work hours · 9:00 AM – 7:00 PM'}
+      </span>
+    </div>
   );
 }
 
@@ -94,11 +123,11 @@ export default function About() {
                 <h3 className="text-lg font-bold text-[#111827] mb-2">{import.meta.env.VITE_LOCATION_CANADA || 'Canada'}</h3>
                 <p className="text-xs text-[#64748B] mb-4">EST Timezone</p>
               </div>
-              <div className="bg-[#FAF9F5] border border-[#0f172a08] rounded-xl p-4 text-center">
-                <span className="status-ring mb-1"></span>
-                <span className="text-xs font-bold text-[#2fa84f] uppercase tracking-wider block mb-2">Available for Work</span>
-                <LiveClock timeZone="America/Toronto" timeZoneLabel="EST (Canada)" />
-              </div>
+              <AvailabilityClock
+                timeZone="America/Toronto"
+                timeZoneLabel="EST (Canada)"
+                workHoursLabel="Work hours · 9:00 AM – 7:00 PM EST"
+              />
             </div>
           ) : (
             <div className="glass-card bento-card p-6 md:p-8 flex flex-col justify-between hover:border-[rgba(255,160,0,0.2)] transition-colors duration-300 reveal">
@@ -107,11 +136,11 @@ export default function About() {
                 <h3 className="text-lg font-bold text-[#111827] mb-2">{import.meta.env.VITE_LOCATION_INDIA || 'India'}</h3>
                 <p className="text-xs text-[#64748B] mb-4">IST Timezone</p>
               </div>
-              <div className="bg-[#FAF9F5] border border-[#0f172a08] rounded-xl p-4 text-center">
-                <span className="status-ring mb-1"></span>
-                <span className="text-xs font-bold text-[#2fa84f] uppercase tracking-wider block mb-2">Available for Work</span>
-                <LiveClock timeZone="Asia/Kolkata" timeZoneLabel="IST (India)" />
-              </div>
+              <AvailabilityClock
+                timeZone="Asia/Kolkata"
+                timeZoneLabel="IST (India)"
+                workHoursLabel="Work hours · 9:00 AM – 7:00 PM IST"
+              />
             </div>
           )}
 

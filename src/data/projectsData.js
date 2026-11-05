@@ -267,5 +267,15 @@ export const testimonialsData = [
     text: '"Umesh is a skilled Full Stack Developer who did an excellent job on our DJ Client CRM Portal updates. He quickly understood the requirements and delivered clean, responsive, and well-structured styling that improved the overall user experience. Beyond execution, Umesh was proactive and suggested useful UI improvements. Communication was clear and consistent, and all work was delivered on time. The collaboration was smooth from start to finish. We would definitely work with Umesh again and highly recommend him to anyone looking for a reliable Full Stack Developer who takes ownership and delivers high-quality results."',
     author: 'Andy',
     role: 'Client'
+  },
+  {
+    text: '"Umesh helped me to clean up some UX bugs within my website. He was clear in his communication and the site looks great."',
+    author: 'Jade Newton',
+    role: 'Client'
+  },
+  {
+    text: '"Working with Umesh was a great experience. He understood the requirements quickly, communicated clearly, and delivered solid work on time. I would happily work with him again."',
+    author: 'Oscar Harty',
+    role: 'Client'
   }
 ];
