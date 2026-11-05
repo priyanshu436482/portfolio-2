@@ -155,7 +155,7 @@ export default function Testimonials() {
           )}
 
           {total > perView && (
-            <div className="flex justify-center gap-2 mt-8" role="tablist" aria-label="Testimonial slides">
+            <div className="testimonials-dots flex justify-center gap-2 mt-8" role="tablist" aria-label="Testimonial slides">
               {Array.from({ length: maxIndex + 1 }).map((_, i) => (
                 <button
                   key={i}

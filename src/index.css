@@ -157,8 +157,7 @@ body {
   grid-column: 2;
   min-width: 0;
 }
-.testimonials-slider > [role="tablist"],
-.testimonials-slider > .flex.justify-center {
+.testimonials-dots {
   grid-column: 1 / -1;
 }
 .testimonials-nav {
